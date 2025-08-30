@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/list_setting_selector" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:id="@id/headviewrl" android:layout_width="fill_parent" android:layout_height="52.299988dip" android:layout_marginLeft="17.599976dip" android:layout_marginRight="17.599976dip">
+        <TextView android:textSize="12.0sp" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/headview" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="2016年11月12日" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:alpha="0.5" />
+    </RelativeLayout>
+    <ImageView android:background="#ff4a4a4a" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_marginLeft="17.599976dip" android:layout_marginRight="17.599976dip" android:layout_below="@id/headviewrl" />
+</RelativeLayout>

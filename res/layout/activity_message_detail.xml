@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fimi.kernel.view.percent.PercentLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/heardView" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_heightPercent="13.79%" layout="@layout/settingheardview" />
+    <WebView android:id="@id/web_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.fimi.kernel.view.percent.PercentLinearLayout>

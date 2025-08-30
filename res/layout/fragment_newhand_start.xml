@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/newbie_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="23.299988dip" android:textColor="#ffff490a" android:id="@id/newhand_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginTop="99.29999dip" android:text="@string/new_hand_guide" />
+    <TextView android:textSize="12.0dip" android:textColor="#7fffffff" android:id="@id/newhand_content_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.299988dip" android:text="@string/newhand_fragment_start_delcare" android:maxLines="2" android:maxEms="17" android:layout_below="@id/newhand_title_tv" android:layout_alignLeft="@id/newhand_title_tv" />
+    <Button android:textSize="13.299988dip" android:textColor="#b2ffffff" android:gravity="center" android:id="@id/newhand_start_btn" android:background="@drawable/newhand_selector" android:layout_width="242.6dip" android:layout_height="40.0dip" android:layout_marginTop="33.299988dip" android:text="@string/start" android:layout_below="@id/newhand_content_tv" android:layout_alignLeft="@id/newhand_content_tv" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="63.299988dip" android:src="@drawable/newbie_plane" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="12.0dip" android:textColor="@drawable/tv_skip_selector" android:gravity="center" android:id="@id/newhand_skip_tv" android:layout_width="52.0dip" android:layout_height="40.0dip" android:text="@string/skip" android:layout_alignParentRight="true" />
+</RelativeLayout>

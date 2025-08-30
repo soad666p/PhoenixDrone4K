@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ff1f1f21" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/title_layout" android:background="#ff2a2a2a" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentTop="true">
+        <ImageView android:id="@id/back_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.599976dip" android:src="@drawable/btn_setting_back_selector" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/white" android:id="@id/fly_log_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fly_logs" android:layout_centerInParent="true" />
+        <ImageView android:background="#ff4a4a4a" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/del_layout" android:background="#ff2a2a2a" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentTop="true">
+        <Button android:textColor="@drawable/tab_video_color_selector" android:gravity="center" android:id="@id/unall_btn" android:background="@drawable/frame_selector" android:layout_width="50.0dip" android:layout_height="wrap_content" android:layout_marginLeft="9.599976dip" android:text="@string/cancel" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/white" android:id="@id/del_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fly_logs" android:layout_centerInParent="true" />
+        <Button android:textColor="@drawable/tab_video_color_selector" android:gravity="center" android:id="@id/all_btn" android:background="@drawable/frame_selector" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="9.599976dip" android:minWidth="50.0dip" android:text="@string/select_all" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <ImageView android:background="#ff4a4a4a" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/log_list_layout" android:background="#ff1f1f21" android:paddingLeft="17.599976dip" android:paddingRight="17.599976dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_below="@id/title_layout">
+        <TextView android:textSize="12.0sp" android:textColor="#7dffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fly_list_name" android:layout_centerVertical="true" />
+        <ImageView android:background="#ff4a4a4a" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/log_list_layout">
+        <ListView android:id="@id/log_list" android:background="#ff1f1f21" android:scrollbars="none" android:fadingEdge="none" android:animationCache="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@android:color/transparent" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/bottom_layout" android:background="#ff1f1f21" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0" android:layout_alignParentBottom="true">
+            <ImageView android:layout_gravity="center|top" android:background="#ff4a4a4a" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_weight="0.0" />
+            <RelativeLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageButton android:id="@id/del_btn" android:background="@null" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_delete_selector" />
+                <TextView android:textSize="10.0sp" android:textColor="#ffffffff" android:id="@id/del_des" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="6.0dip" android:text="@string/delete" android:layout_below="@id/del_btn" />
+                <ImageButton android:id="@id/upload_btn" android:background="@null" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="43.0dip" android:src="@drawable/drone_log_btn_upload_selector" android:layout_toRightOf="@id/del_btn" />
+                <TextView android:textSize="10.0sp" android:textColor="#ffffffff" android:id="@id/upload_des" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="48.0dip" android:layout_marginTop="6.0dip" android:text="@string/fly_upload_all_file" android:layout_toRightOf="@id/del_btn" android:layout_below="@id/upload_btn" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

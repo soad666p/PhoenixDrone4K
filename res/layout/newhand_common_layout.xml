@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fimi.kernel.view.percent.PercentRelativeLayout android:background="@drawable/newbie_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.fimi.kernel.view.percent.PercentLinearLayout android:id="@id/top_item" style="@style/new_hand_header_layout">
+        <TextView android:id="@id/tv_seq" style="@style/new_hand_header_serial_sequence" />
+        <TextView android:id="@id/tv_total" android:text="/7" style="@style/new_hand_header_total_count" />
+        <TextView android:id="@id/tv_title" android:layout_toLeftOf="@id/ben_v" style="@style/new_hand_header_title" />
+    </com.fimi.kernel.view.percent.PercentLinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_below="@id/top_item">
+        <TextView android:id="@id/tv_number_one" android:text="1." style="@style/new_hand_seq" />
+        <TextView android:id="@id/tv_tip_one" android:layout_toLeftOf="@id/tv_1" style="@style/new_hand_tip_tv" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/ll_2" android:layout_below="@id/ll_1" style="@style/new_hand_line_spacing">
+        <TextView android:id="@id/tv_number_two" android:text="2." style="@style/new_hand_seq" />
+        <TextView android:id="@id/tv_tip_two" android:layout_toLeftOf="@id/tv_2" style="@style/new_hand_tip_tv" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/ll_3" android:layout_below="@id/ll_2" style="@style/new_hand_line_spacing">
+        <TextView android:id="@id/tv_number_three" android:text="3." style="@style/new_hand_seq" />
+        <TextView android:id="@id/tv_tip_three" android:layout_toLeftOf="@id/tv_3" style="@style/new_hand_tip_tv" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/ll_4" android:visibility="gone" android:layout_below="@id/ll_3" style="@style/new_hand_line_spacing">
+        <TextView android:id="@id/tv_number_four" android:text="4." style="@style/new_hand_seq" />
+        <TextView android:id="@id/tv_tip_four" android:layout_toLeftOf="@id/tv_number_four" style="@style/new_hand_tip_tv" />
+    </LinearLayout>
+</com.fimi.kernel.view.percent.PercentRelativeLayout>

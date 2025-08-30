@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fimi.kernel.view.percent.PercentRelativeLayout android:background="@color/imu_row_background_two" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/in_imu_title" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/include_title" />
+    <View android:id="@id/v_line" android:background="@color/insurance_black" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/in_imu_title" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_middle" android:background="@color/insurance_black" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_below="@id/v_line" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" app:layout_widthPercent="70.3%w">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="75.0dip" android:layout_height="fill_parent">
+                <LinearLayout android:background="@color/imu_row_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="5.97" />
+                <View android:background="@color/insurance_black" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.03">
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                        <LinearLayout android:orientation="vertical" android:background="@color/camera_course_txt" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.01">
+                            <TextView android:background="@color/imu_row_background_two" android:layout_width="fill_parent" android:text="@string/title_imu_one" style="@style/imu_text_style" />
+                        </LinearLayout>
+                        <View android:background="@color/insurance_black" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <LinearLayout android:orientation="vertical" android:background="@color/imu_row_background_two" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.98">
+                            <TextView android:background="@color/imu_row_background_two" android:layout_width="fill_parent" android:text="@string/title_imu_two" style="@style/imu_text_style" />
+                        </LinearLayout>
+                        <View android:background="@color/insurance_black" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <LinearLayout android:orientation="vertical" android:background="@color/imu_row_background_two" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                            <TextView android:background="@color/imu_row_background_two" android:layout_width="fill_parent" android:text="@string/imu_compass" style="@style/imu_text_style" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <View android:background="@color/insurance_black" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+                </LinearLayout>
+            </LinearLayout>
+            <TableLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:stretchColumns="*" android:layout_weight="0.7">
+                <TableRow android:background="@color/imu_row_background" android:layout_weight="1.0">
+                    <TextView android:layout_width="wrap_content" android:layout_weight="1.0" style="@style/imu_text_style" />
+                    <TextView android:id="@id/tv_x" android:layout_width="wrap_content" android:text="@string/imu_x" style="@style/imu_text_style" />
+                    <TextView android:id="@id/tv_y" android:layout_width="wrap_content" android:text="@string/imu_y" style="@style/imu_text_style" />
+                    <TextView android:id="@id/tv_z" android:layout_width="wrap_content" android:text="@string/imu_z" style="@style/imu_text_style" />
+                    <TextView android:id="@id/tv_mod" android:layout_width="wrap_content" android:text="@string/imu_mod" style="@style/imu_text_style" />
+                </TableRow>
+                <View android:background="@color/insurance_black" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <TableRow android:background="@color/imu_row_background_two" android:layout_weight="1.0">
+                    <TextView android:id="@id/tv_gyroscope" android:layout_width="wrap_content" android:text="@string/imu_gyroscope" style="@style/imu_text_style" />
+                    <TextView android:textColor="@color/white_90" android:id="@id/imu_gyroscope_x" android:layout_width="wrap_content" android:text="@string/no_use" style="@style/imu_text_style" />
+                    <TextView android:textColor="@color/white_90" android:id="@id/imu_gyroscope_y" android:layout_width="wrap_content" android:text="@string/no_use" style="@style/imu_text_style" />
+                    <TextView android:textColor="@color/white_90" android:id="@id/imu_gyroscope_z" android:layout_width="wrap_content" android:text="@string/no_use" style="@style/imu_text_style" />
+                    <TextView android:textColor="@color/white_90" android:id="@id/imu_gyroscope_mod" android:layout_width="wrap_content" android:text="@string/no_use" style="@style/imu_text_style" />
+                </TableRow>
+                <TableRow android:background="@color/imu_row_background_two" android:layout_weight="1.0">
+                    <TextView android:id="@id/tv_accelerometer" android:layout_width="wrap_content" android:text="@string/imu_accelerometer" style="@style/imu_text_style" />
+                    <TextView android:textColor="@color/white_90" android:id="@id/imu_accelerometer_x" android:layout_width="wrap_content" android:text="@string/no_use" style="@style/imu_text_style" />
+                    <TextView android:textColor="@color/white_90" android:id="@id/imu_accelerometer_y" android:layout_width="wrap_content" android:text="@string/no_use" style="@style/imu_text_style" />
+                    <TextView android:textColor="@color/white_90" android:id="@id/imu_accelerometer_z" android:layout_width="wrap_content" android:text="@string/no_use" style="@style/imu_text_style" />
+                    <TextView android:textColor="@color/white_90" android:id="@id/imu_accelerometer_mod" android:layout_width="wrap_content" android:text="@string/no_use" style="@style/imu_text_style" />
+                </TableRow>
+                <View android:background="@color/insurance_black" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <TableRow android:background="@color/imu_row_background_two" android:layout_weight="1.0">
+                    <TextView android:id="@id/tv_gyroscope_two" android:layout_width="wrap_content" android:text="@string/imu_gyroscope" style="@style/imu_text_style" />
+                    <TextView android:textColor="@color/white_90" android:id="@id/imu_gyroscope_two_x" android:layout_width="wrap_content" android:text="@string/no_use" style="@style/imu_text_style" />
+                    <TextView android:textColor="@color/white_90" android:id="@id/imu_gyroscope_two_y" android:layout_width="wrap_content" android:text="@string/no_use" style="@style/imu_text_style" />
+                    <TextView android:textColor="@color/white_90" android:id="@id/imu_gyroscope_two_z" android:layout_width="wrap_content" android:text="@string/no_use" style="@style/imu_text_style" />
+                    <TextView android:textColor="@color/white_90" android:id="@id/imu_gyroscope_two_mod" android:layout_width="wrap_content" android:text="@string/no_use" style="@style/imu_text_style" />
+                </TableRow>
+                <TableRow android:background="@color/imu_row_background_two" android:layout_weight="1.0">
+                    <TextView android:id="@id/tv_accelerometer_two" android:layout_width="wrap_content" android:text="@string/imu_accelerometer" style="@style/imu_text_style" />
+                    <TextView android:textColor="@color/white_90" android:id="@id/imu_accelerometer_two_x" android:layout_width="wrap_content" android:text="@string/no_use" style="@style/imu_text_style" />
+                    <TextView android:textColor="@color/white_90" android:id="@id/imu_accelerometer_two_y" android:layout_width="wrap_content" android:text="@string/no_use" style="@style/imu_text_style" />
+                    <TextView android:textColor="@color/white_90" android:id="@id/imu_accelerometer_two_z" android:layout_width="wrap_content" android:text="@string/no_use" style="@style/imu_text_style" />
+                    <TextView android:textColor="@color/white_90" android:id="@id/imu_accelerometer_two_mod" android:layout_width="wrap_content" android:text="@string/no_use" style="@style/imu_text_style" />
+                </TableRow>
+                <View android:background="@color/insurance_black" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <TableRow android:background="@color/imu_row_background_two" android:layout_weight="1.0">
+                    <TextView android:id="@id/tv_compass_one" android:layout_width="wrap_content" android:text="@string/imu_compass_one" style="@style/imu_text_style" />
+                    <TextView android:textColor="@color/white_90" android:id="@id/imu_compass_one_x" android:layout_width="wrap_content" android:text="@string/no_use" style="@style/imu_text_style" />
+                    <TextView android:textColor="@color/white_90" android:id="@id/imu_compass_one_y" android:layout_width="wrap_content" android:text="@string/no_use" style="@style/imu_text_style" />
+                    <TextView android:textColor="@color/white_90" android:id="@id/imu_compass_one_z" android:layout_width="wrap_content" android:text="@string/no_use" style="@style/imu_text_style" />
+                    <TextView android:textColor="@color/white_90" android:id="@id/imu_compass_one_mod" android:layout_width="wrap_content" android:text="@string/no_use" style="@style/imu_text_style" />
+                </TableRow>
+                <TableRow android:background="@color/imu_row_background_two" android:layout_weight="1.0">
+                    <TextView android:id="@id/tv_compass_two" android:layout_width="wrap_content" android:text="@string/imu_compass_two" style="@style/imu_text_style" />
+                    <TextView android:textColor="@color/white_90" android:id="@id/imu_compass_two_x" android:layout_width="wrap_content" android:text="@string/no_use" style="@style/imu_text_style" />
+                    <TextView android:textColor="@color/white_90" android:id="@id/imu_compass_two_y" android:layout_width="wrap_content" android:text="@string/no_use" style="@style/imu_text_style" />
+                    <TextView android:textColor="@color/white_90" android:id="@id/imu_compass_two_z" android:layout_width="wrap_content" android:text="@string/no_use" style="@style/imu_text_style" />
+                    <TextView android:textColor="@color/white_90" android:id="@id/imu_compass_two_mod" android:layout_width="wrap_content" android:text="@string/no_use" style="@style/imu_text_style" />
+                </TableRow>
+            </TableLayout>
+            <View android:background="@color/insurance_black" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="@color/imu_row_background_two" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_toRightOf="@id/ll_middle" android:layout_below="@id/v_line">
+        <com.fimi.kernel.view.percent.PercentRelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="11.0sp" android:textColor="@color/white_90" android:gravity="center" android:id="@id/tv_imu_hint" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="16.0dip" android:text="" android:singleLine="false" app:layout_widthPercent="43%w" app:layout_heightPercent="10.370%h" />
+            <Button android:enabled="false" android:textSize="@dimen/remotcalinext" android:textColor="@color/white_half" android:gravity="center" android:id="@id/btn_imu_detection" android:background="@drawable/remotenext" android:layout_width="0.0dip" android:layout_height="0.0dip" android:text="@string/imu_detection" android:layout_below="@id/tv_imu_hint" app:layout_widthPercent="63%w" app:layout_heightPercent="11.370%h" />
+            <TextView android:textSize="11.0sp" android:textColor="@color/white_90" android:gravity="center" android:id="@id/tv_imu_error" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="16.0dip" android:text="@string/connect_aircraft_hint" android:singleLine="false" android:layout_below="@id/btn_imu_detection" app:layout_widthPercent="63%w" app:layout_heightPercent="15.370%h" />
+        </com.fimi.kernel.view.percent.PercentRelativeLayout>
+    </LinearLayout>
+</com.fimi.kernel.view.percent.PercentRelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="block_canary_max_stored_count">100</integer>
+    <integer name="camera_anim_duration">300</integer>
+    <integer name="image_historylist">120</integer>
+    <integer name="image_lagar">500</integer>
+    <integer name="image_more_lagar">600</integer>
+    <integer name="image_small">150</integer>
+</resources>

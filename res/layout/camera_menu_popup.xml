@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/camera_menu_item_info_layout" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/tab" android:background="@drawable/main_wv_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/camera_menu_tab_magin_top" android:layout_below="@id/menu_item_info_ly">
+        <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/ae_tv" android:background="@drawable/ae_tv_bg" android:layout_width="fill_parent" android:layout_height="@dimen/camera_menu_tab_hight" android:text="@string/camera_menu" />
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/main_wv_ly" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <View android:layout_width="fill_parent" android:layout_height="8.0dip" />
+                <com.fimi.soul.view.wheelview.WheelView android:id="@id/main_wv" android:layout_width="270.0dip" android:layout_height="wrap_content" android:overScrollMode="never" />
+                <View android:layout_width="fill_parent" android:layout_height="8.0dip" />
+            </LinearLayout>
+            <View android:background="#ff3d3d3d" android:layout_width="230.0dip" android:layout_height="1.0dip" android:layout_marginTop="38.0dip" android:layout_centerHorizontal="true" />
+            <View android:background="#ff3d3d3d" android:layout_width="230.0dip" android:layout_height="1.0dip" android:layout_marginTop="68.0dip" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:id="@id/tv_default2" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_below="@id/tab" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_default" android:background="@drawable/camera_menu_redefault_bg" android:visibility="gone" android:layout_width="89.0dip" android:layout_height="30.0dip" android:layout_marginBottom="3.0dip" android:text="@string/camera_menu_redefault" android:layout_above="@id/tv_default2" android:layout_centerHorizontal="true" />
+</RelativeLayout>

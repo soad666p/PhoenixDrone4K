@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/blightness_ev_bg" android:layout_width="344.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/progress_text_tile_size" android:textColor="@color/front_light_info_text_color" android:gravity="center" android:id="@id/info_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+    <com.fimi.soul.view.marknumberprogress.NumberMarkProgressBar android:id="@id/markbar" android:layout_width="fill_parent" android:layout_height="25.0dip" android:layout_below="@id/info_tv" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/progress_text_info_size" android:textColor="@color/front_light_info_text_color" android:gravity="center" android:id="@id/model_tv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:layout_below="@id/markbar" />
+    <View android:id="@id/divide_line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginBottom="8.0dip" android:layout_below="@id/markbar" />
+</RelativeLayout>

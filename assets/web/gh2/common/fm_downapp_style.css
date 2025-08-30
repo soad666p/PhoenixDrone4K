@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+body{
+	min-width:640px;
+	/* background:url(../image/bg.png) repeat-x;*/
+	background-size:cover;
+	background-color: #1f1f21;
+}
+.market{
+	/*background:url(../image/icon_splash_logo.png) no-repeat;
+	width:200px;
+	height:200px;*/
+}
+.content{
+	overflow:hidden;
+}
+.content a{
+	display:block;
+	width:86%;
+	line-height:310%;
+	border:1px solid rgba(255,255,255,0.50);
+	border-radius:80px;
+	font-size:36px;
+	font-family:"方正兰亭黑";
+	text-align:center;
+	text-decoration:none;
+	color:#cecece;
+	margin:80% auto 10%;
+}
+.content a:hover{
+	background:rgba(255,255,255,0.10);
+}

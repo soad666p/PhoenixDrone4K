@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/load_pb" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="120.0dip" android:indeterminateDrawable="@drawable/progress_media" android:layout_centerHorizontal="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="13.0sp" android:textColor="@color/drone_tab_gray_color" android:gravity="center" android:id="@id/media_detail" android:paddingTop="3.0dip" android:paddingBottom="3.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="10.0dip" android:text="" />
+        <com.fimi.soul.view.MyGridView android:id="@id/gv_content" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/selector_gridview_item" android:horizontalSpacing="5.0dip" android:verticalSpacing="5.0dip" android:numColumns="4" android:overScrollMode="never" />
+    </LinearLayout>
+</RelativeLayout>

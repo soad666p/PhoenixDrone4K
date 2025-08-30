@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="90.0dip" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/bg_view" android:background="@color/main_menu_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageButton android:id="@id/btn_switch_mode" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="23.599976dip" android:layout_marginTop="65.0dip" android:src="@drawable/cloud_select_take_photo_selector" android:scaleType="center" android:contentDescription="@string/app_name" />
+    <ImageButton android:id="@id/btn_shutter_record" android:background="@drawable/btn_shutter_recorded" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="19.0dip" android:scaleType="fitXY" android:layout_centerVertical="true" android:contentDescription="@string/app_name" />
+    <ImageButton android:id="@id/btn_shutter_camera" android:background="@drawable/btn_shutter_camera" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="19.0dip" android:scaleType="fitXY" android:layout_alignTop="@id/btn_shutter_record" android:layout_centerVertical="true" android:contentDescription="@string/app_name" />
+    <ImageButton android:id="@id/ibtn_thumbnail" android:background="@drawable/cloud_enter_image_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="23.599976dip" android:layout_marginBottom="65.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

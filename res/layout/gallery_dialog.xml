@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.fimi.soul.view.photodraweeview.PhotoDraweeView android:id="@id/gallery" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="1.0dip" android:minWidth="800.0dip" android:minHeight="800.0dip" fresco:failureImageScaleType="fitCenter" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" style="?android:attr/progressBarStyleInverse" />
+    </FrameLayout>
+</LinearLayout>

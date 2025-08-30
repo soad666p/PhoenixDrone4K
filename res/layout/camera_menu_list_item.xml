@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:gravity="center_vertical" android:id="@id/tv_lv_item_tag" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginLeft="48.0dip" android:text="a" />
+    <TextView android:textSize="14.0sp" android:gravity="center_vertical" android:id="@id/tv_lv_item_value" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginRight="48.0dip" android:text="b" android:layout_alignParentRight="true" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/camera_menu_item_text_color_def" android:gravity="center" android:id="@id/tv_lv_item_default1" android:background="@drawable/camera_menu_redefault_bg" android:layout_width="90.0dip" android:layout_height="26.0dip" android:layout_marginTop="4.0dip" android:text="c" android:layout_centerHorizontal="true" />
+</RelativeLayout>

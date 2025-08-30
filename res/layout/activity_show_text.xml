@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fimi.kernel.view.percent.PercentRelativeLayout android:orientation="vertical" android:id="@id/activity_general_setting" android:background="#ff1f1f21" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.fimi.kernel.view.percent.PercentRelativeLayout android:id="@id/aboutRelativeLayout" android:background="#ff2a2a2a" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_heightPercent="13.79%">
+        <Button android:id="@id/backBtn" android:background="@drawable/btn_setting_back_selector" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_centerVertical="true" app:layout_widthPercent="57.7%h" app:layout_heightPercent="57.7%h" app:layout_marginLeftPercent="1.71%" />
+        <TextView android:textColor="#ffffffff" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" app:layout_textSizePercent="28.1%" />
+        <Button android:textSize="12.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/down_bt" android:background="@drawable/frame_selector" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="28.0dip" android:layout_marginRight="9.599976dip" android:text="@string/now_upgrade_down" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </com.fimi.kernel.view.percent.PercentRelativeLayout>
+    <TextView android:id="@id/about_line" android:background="#ff4a4a4a" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/aboutRelativeLayout" app:layout_heightPercent="0.2%h" />
+    <WebView android:id="@id/web_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/about_line" />
+</com.fimi.kernel.view.percent.PercentRelativeLayout>

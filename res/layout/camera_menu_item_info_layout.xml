@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/menu_item_info_ly" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_info" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="right" android:id="@id/tv_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="TextView" android:layout_weight="1.0" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/tv_info_value" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="TextView" android:layout_weight="1.0" />
+    </LinearLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@id/rl_items" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_below="@id/ll_info">
+        <com.fimi.soul.view.marknumberprogress.EvProgressBar android:id="@id/mEvProgressBar" android:background="@drawable/blightness_ev_bg1" android:layout_width="fill_parent" android:layout_height="30.0dip" />
+        <com.fimi.soul.view.marknumberprogress.SaturationContrastProgressBar android:id="@id/mStaturationBar" android:background="@drawable/blightness_ev_bg1" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="30.0dip" />
+        <com.fimi.soul.view.marknumberprogress.SaturationContrastProgressBar android:id="@id/mContrastBar" android:background="@drawable/blightness_ev_bg1" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="30.0dip" />
+        <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/camera_menu_item_sharpan_layout" />
+        <RelativeLayout android:id="@id/whitebalance_rl" android:background="@drawable/blightness_ev_bg1" android:visibility="invisible" android:layout_width="270.0dip" android:layout_height="30.0dip">
+            <com.fimi.soul.view.horizontallistview.HorizontalListView android:id="@id/whitebalance_horizon_listview" android:layout_width="270.0dip" android:layout_height="150.0dip" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/bt_sliding_left" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginLeft="4.0dip" android:src="@drawable/icon_sliding_left" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/bt_sliding_right" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/icon_sliding_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

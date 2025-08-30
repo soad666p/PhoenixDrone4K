@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fimi.kernel.view.percent.PercentRelativeLayout android:background="@drawable/bg_dialog" android:layout_width="344.0dip" android:layout_height="206.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:id="@id/share_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/share" android:layout_centerHorizontal="true" />
+    <com.fimi.kernel.view.percent.PercentRelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_below="@id/share_tv" app:layout_widthPercent="33.3%w">
+        <ImageView android:id="@id/wechat_iv" android:background="@drawable/share_wechat_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="10.599976sp" android:textColor="#80000000" android:gravity="center" android:id="@id/wechat_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wechat" android:layout_below="@id/wechat_iv" android:layout_centerHorizontal="true" app:layout_marginTopPercent="5%h" />
+    </com.fimi.kernel.view.percent.PercentRelativeLayout>
+    <com.fimi.kernel.view.percent.PercentRelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_below="@id/share_tv" app:layout_widthPercent="33.3%w" app:layout_marginLeftPercent="33.3%w">
+        <ImageView android:id="@id/wechat_friend_iv" android:background="@drawable/share_friends_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="10.599976sp" android:textColor="#80000000" android:gravity="center" android:id="@id/wechat_friend_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wechat_friends" android:layout_below="@id/wechat_friend_iv" android:layout_centerHorizontal="true" app:layout_marginTopPercent="5%h" />
+    </com.fimi.kernel.view.percent.PercentRelativeLayout>
+    <com.fimi.kernel.view.percent.PercentRelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_below="@id/share_tv" app:layout_widthPercent="33.3%w" app:layout_marginLeftPercent="66.6%w">
+        <ImageView android:id="@id/sinaweibo_iv" android:background="@drawable/share_microblog_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="10.599976sp" android:textColor="#80000000" android:gravity="center" android:id="@id/sinaweibo_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sina_weibo" android:layout_below="@id/sinaweibo_iv" android:layout_centerHorizontal="true" app:layout_marginTopPercent="5%h" />
+    </com.fimi.kernel.view.percent.PercentRelativeLayout>
+    <Button android:textSize="14.0sp" android:textColor="#b4000000" android:gravity="center" android:id="@id/cancle_btn" android:background="@drawable/btn_dialog_center_selector" android:layout_width="fill_parent" android:layout_height="52.329987dip" android:text="@string/no_send" android:layout_alignParentBottom="true" />
+</com.fimi.kernel.view.percent.PercentRelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/part_tab_media_top" />
+        <RelativeLayout android:orientation="vertical" android:id="@id/ll_empty" android:background="#ff1f1f21" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/vedio_empty_iv" android:background="@drawable/video_empty" android:layout_width="41.0dip" android:layout_height="29.0dip" android:layout_marginTop="113.0dip" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/drone_tab_gray_color" android:id="@id/vedio_empty_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/use_angle_record_moments" android:layout_below="@id/vedio_empty_iv" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_content" android:background="#ff1f1f21" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <include layout="@layout/part_media_bar_top" />
+    <include layout="@layout/part_media_bar_bottom" />
+</RelativeLayout>

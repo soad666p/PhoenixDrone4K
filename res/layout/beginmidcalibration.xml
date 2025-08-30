@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fimi.kernel.view.percent.PercentRelativeLayout android:orientation="vertical" android:background="#ff202020" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/heardView" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_heightPercent="13.79%" layout="@layout/settingheardview" />
+    <com.fimi.soul.view.MidView android:id="@id/rightVew" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_alignParentRight="true" app:layout_widthPercent="43.52%h" app:layout_heightPercent="43.52%h" app:layout_marginTopPercent="29.259%h" app:layout_marginRightPercent="14.8958%w" app:viewtype="2" />
+    <com.fimi.soul.view.MidView android:id="@id/leftView" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_widthPercent="43.52%h" app:layout_heightPercent="43.52%h" app:layout_marginLeftPercent="14.8958%w" app:layout_marginTopPercent="29.259%h" app:viewtype="2" />
+    <Button android:textSize="@dimen/remotcalinext" android:textColor="@color/white" android:gravity="center" android:id="@id/nextbutton" android:background="@drawable/remotenext" android:layout_width="0.0dip" android:layout_height="0.0dip" android:text="@string/begincalibration" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:layout_widthPercent="23.75%w" app:layout_heightPercent="10.370%h" app:layout_marginBottomPercent="7.4074%h" />
+</com.fimi.kernel.view.percent.PercentRelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/add_feedback_pic" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/delete_feedback_pic" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/remove_images_icon" android:layout_alignRight="@id/add_feedback_pic" />
+</RelativeLayout>

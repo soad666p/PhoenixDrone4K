@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="100" android:drawable="@drawable/update01" />
+    <item android:duration="100" android:drawable="@drawable/update04" />
+    <item android:duration="100" android:drawable="@drawable/update08" />
+    <item android:duration="100" android:drawable="@drawable/update12" />
+    <item android:duration="100" android:drawable="@drawable/update16" />
+    <item android:duration="100" android:drawable="@drawable/update20" />
+    <item android:duration="100" android:drawable="@drawable/update24" />
+    <item android:duration="100" android:drawable="@drawable/update28" />
+    <item android:duration="100" android:drawable="@drawable/update32" />
+    <item android:duration="100" android:drawable="@drawable/update36" />
+    <item android:duration="100" android:drawable="@drawable/update40" />
+    <item android:duration="100" android:drawable="@drawable/update44" />
+    <item android:duration="100" android:drawable="@drawable/update48" />
+    <item android:duration="100" android:drawable="@drawable/update52" />
+    <item android:duration="100" android:drawable="@drawable/update56" />
+    <item android:duration="100" android:drawable="@drawable/update60" />
+    <item android:duration="100" android:drawable="@drawable/update64" />
+    <item android:duration="100" android:drawable="@drawable/update68" />
+    <item android:duration="100" android:drawable="@drawable/update72" />
+    <item android:duration="100" android:drawable="@drawable/update76" />
+    <item android:duration="100" android:drawable="@drawable/update80" />
+    <item android:duration="100" android:drawable="@drawable/update84" />
+    <item android:duration="100" android:drawable="@drawable/update88" />
+    <item android:duration="100" android:drawable="@drawable/update92" />
+    <item android:duration="100" android:drawable="@drawable/update96" />
+    <item android:duration="100" android:drawable="@drawable/update100" />
+    <item android:duration="100" android:drawable="@drawable/update104" />
+    <item android:duration="100" android:drawable="@drawable/update108" />
+    <item android:duration="100" android:drawable="@drawable/update112" />
+    <item android:duration="100" android:drawable="@drawable/update116" />
+    <item android:duration="100" android:drawable="@drawable/update120" />
+    <item android:duration="100" android:drawable="@drawable/update124" />
+    <item android:duration="100" android:drawable="@drawable/update128" />
+    <item android:duration="100" android:drawable="@drawable/update132" />
+    <item android:duration="100" android:drawable="@drawable/update134" />
+</animation-list>

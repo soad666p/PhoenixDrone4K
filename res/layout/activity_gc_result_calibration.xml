@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fimi.kernel.view.percent.PercentRelativeLayout android:background="@drawable/calibration_compass" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/calicompass" android:textColor="@color/white" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gimbal_calibration" android:layout_centerHorizontal="true" android:alpha="0.9" app:layout_marginTopPercent="7.5925%h" />
+    <TextView android:textSize="@dimen/descalicompass" android:textColor="#ffff4e00" android:id="@id/tv_result" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/tv_title" android:layout_centerHorizontal="true" app:layout_marginTopPercent="2.4%h" />
+    <ImageView android:id="@id/img_result" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <Button android:textSize="@dimen/remotcalinext" android:textColor="@color/white" android:gravity="center" android:id="@id/btn_finish" android:background="@drawable/remotenext" android:layout_width="0.0dip" android:layout_height="0.0dip" android:text="@string/finish" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:layout_widthPercent="23.75%w" app:layout_heightPercent="10.370%h" app:layout_marginBottomPercent="7.4074%h" />
+</com.fimi.kernel.view.percent.PercentRelativeLayout>

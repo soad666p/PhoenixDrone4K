@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/ll_actionBottom" android:background="@drawable/title_bottom_bg" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="67.0dip" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_bottomShare" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="42.0dip">
+            <ImageButton android:id="@id/btn_bottomShare" android:background="@drawable/btn_share_selector" android:layout_width="31.0dip" android:layout_height="31.0dip" android:layout_marginTop="5.0dip" />
+            <TextView android:textSize="9.0sp" android:textColor="#66ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/share" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_bottomDownload" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="42.0dip">
+            <ImageButton android:id="@id/btn_bottomDownload" android:background="@drawable/btn_download_selector" android:layout_width="31.0dip" android:layout_height="31.0dip" android:layout_marginTop="5.0dip" />
+            <TextView android:textSize="9.0sp" android:textColor="#66ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/download" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_bottomDelete" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageButton android:id="@id/btn_bottomDelete" android:background="@drawable/btn_delete_selector" android:layout_width="31.0dip" android:layout_height="31.0dip" android:layout_marginTop="5.0dip" />
+            <TextView android:textSize="9.0sp" android:textColor="#66ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/delete" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

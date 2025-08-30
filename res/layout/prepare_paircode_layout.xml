@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/prepare_layout" android:background="#ff1f1f21" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="#ccffffff" android:id="@id/pair_des" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.599976dip" android:text="@string/paircode_step_des" android:layout_below="@id/pairtop_layout" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/pair_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="21.299988dip" android:src="@drawable/img_match_code" android:layout_below="@id/pair_des" android:layout_centerHorizontal="true" />
+    <Button android:textSize="12.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/pre_pair_btn" android:background="@drawable/remotenext" android:layout_width="152.0dip" android:layout_height="40.0dip" android:layout_marginBottom="26.599976dip" android:text="@string/start_match_code" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

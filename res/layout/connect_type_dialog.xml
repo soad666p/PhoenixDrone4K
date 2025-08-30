@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fimi.kernel.view.percent.PercentRelativeLayout android:orientation="vertical" android:background="@drawable/bg_dialog" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.fimi.kernel.view.percent.PercentRelativeLayout android:gravity="center" android:id="@id/choice_type" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_marginTopPercent="3.7037%h">
+        <Button android:textSize="12.0dip" android:textColor="@color/black" android:gravity="center" android:id="@id/usb_type" android:background="@drawable/connect_type_usb_on_bg" android:layout_width="102.0dip" android:layout_height="26.5dip" android:layout_marginLeft="20.0dip" android:text="@string/usb_connect" />
+        <Button android:textSize="12.0dip" android:textColor="@color/black" android:gravity="center" android:id="@id/wifi_type" android:background="@drawable/connect_type_wifi_bg" android:layout_width="102.0dip" android:layout_height="26.5dip" android:layout_marginLeft="-1.0px" android:text="@string/wifi_connect" android:layout_toRightOf="@id/usb_type" />
+    </com.fimi.kernel.view.percent.PercentRelativeLayout>
+    <TextView android:textSize="14.0sp" android:textColor="@color/black_50" android:gravity="center" android:id="@id/msg_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/usb_network_share" android:layout_below="@id/choice_type" android:layout_centerHorizontal="true" android:lineSpacingExtra="3.0dip" app:layout_marginTopPercent="4.6296%h" />
+    <ImageView android:gravity="center" android:id="@id/imageview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/msg_tv" android:layout_centerHorizontal="true" app:layout_marginTopPercent="2.222%h" />
+    <Button android:textSize="14.0sp" android:textColor="@color/black_80" android:gravity="center" android:id="@id/single_btn" android:background="@drawable/btn_dialog_center_selector" android:layout_width="fill_parent" android:layout_height="52.299988dip" android:layout_marginTop="23.299988dip" android:text="@string/good" android:layout_below="@id/imageview" />
+</com.fimi.kernel.view.percent.PercentRelativeLayout>

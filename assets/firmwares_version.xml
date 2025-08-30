@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    isLowVersion:是否允许降级更新固件
+    sort:升级顺序 1：表示第一个升级
+
+-->
+<firmwares>
+    <firmware>
+        <sysId>0</sysId>
+        <model>1</model>
+        <sysName>飞控</sysName>
+        <version>1200</version>
+        <status>1</status>
+        <isLowVersion>0</isLowVersion>
+        <inputTime>2015-09-23</inputTime>
+        <sort>6</sort>
+        <fileName>mifc</fileName>
+    </firmware>
+
+    <firmware>
+        <sysId>1</sysId>
+        <model>2</model>
+        <sysName>遥控</sysName>
+        <version>1110</version>
+        <status>1</status>
+        <isLowVersion>0</isLowVersion>
+        <inputTime>2015-09-23</inputTime>
+        <sort>8</sort>
+        <fileName>mirc</fileName>
+    </firmware>
+
+    <firmware>
+        <sysId>6</sysId>
+        <model>0</model>
+        <sysName>云台x轴(伺服)</sysName>
+        <version>-100</version>
+        <status>1</status>
+        <isLowVersion>0</isLowVersion>
+        <inputTime>2015-10-2</inputTime>
+        <sort>3</sort>
+        <fileName>misf</fileName>
+    </firmware>
+
+    <firmware>
+        <sysId>3</sysId>
+        <model>0</model>
+        <sysName>云台</sysName>
+        <version>1101</version>
+        <status>1</status>
+        <isLowVersion>0</isLowVersion>
+        <inputTime>2015-10-21</inputTime>
+        <sort>4</sort>
+        <fileName>micc</fileName>
+    </firmware>
+
+    <firmware>
+        <sysId>4</sysId>
+        <model>0</model>
+        <sysName>相机</sysName>
+        <version>-100</version>
+        <status>1</status>
+        <isLowVersion>0</isLowVersion>
+        <inputTime>2015-10-21</inputTime>
+        <sort>1</sort>
+        <fileName>firmware-2.zip</fileName>
+    </firmware>
+
+
+    <firmware>
+        <sysId>9</sysId>
+        <model>0</model>
+        <sysName>光流</sysName>
+        <version>4</version>
+        <status>1</status>
+        <isLowVersion>0</isLowVersion>
+        <inputTime>2015-10-21</inputTime>
+        <sort>5</sort>
+        <fileName>mils</fileName>
+    </firmware>
+
+    <firmware>
+        <sysId>10</sysId>
+        <model>0</model>
+        <sysName>禁飞区</sysName>
+        <version>-100</version>
+        <status>1</status>
+        <isLowVersion>0</isLowVersion>
+        <inputTime>2015-10-21</inputTime>
+        <sort>1</sort>
+        <fileName>m</fileName>
+    </firmware>
+
+
+    <firmware>
+        <sysId>11</sysId>
+        <model>0</model>
+        <sysName>中继</sysName>
+        <version>-100</version>
+        <status>1</status>
+        <isLowVersion>0</isLowVersion>
+        <inputTime>2015-10-28 00:00:00</inputTime>
+        <sort>2</sort>
+        <fileName>feimi.image</fileName>
+    </firmware>
+
+
+</firmwares>

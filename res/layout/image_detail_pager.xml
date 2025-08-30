@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.fimi.soul.view.HackyViewPager android:id="@id/pager" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="18.0sp" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="bottom" android:id="@id/indicator" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

@@ -1,0 +1,1216 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			INFORMATIVA SULLA PRIVACY
+		</title>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="file:////Users/moweiru/.vscode/extensions/shd101wyy.markdown-preview-enhanced-0.3.13/node_modules/@shd101wyy/mume/dependencies/katex/katex.min.css">
+
+
+
+
+
+		<style>
+			/**
+ * prism.js Github theme based on GitHub's theme.
+ * @author Sam Clarke
+ */
+			code[class*="language-"],
+			pre[class*="language-"] {
+				color: #333;
+				background: none;
+				font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+				text-align: left;
+				white-space: pre;
+				word-spacing: normal;
+				word-break: normal;
+				word-wrap: normal;
+				line-height: 1.4;
+
+				-moz-tab-size: 8;
+				-o-tab-size: 8;
+				tab-size: 8;
+
+				-webkit-hyphens: none;
+				-moz-hyphens: none;
+				-ms-hyphens: none;
+				hyphens: none;
+			}
+
+			/* Code blocks */
+			pre[class*="language-"] {
+				padding: .8em;
+				overflow: auto;
+				/* border: 1px solid #ddd; */
+				border-radius: 3px;
+				/* background: #fff; */
+				background: #f5f5f5;
+			}
+
+			/* Inline code */
+			:not(pre)>code[class*="language-"] {
+				padding: .1em;
+				border-radius: .3em;
+				white-space: normal;
+				background: #f5f5f5;
+			}
+
+			.token.comment,
+			.token.blockquote {
+				color: #969896;
+			}
+
+			.token.cdata {
+				color: #183691;
+			}
+
+			.token.doctype,
+			.token.punctuation,
+			.token.variable,
+			.token.macro.property {
+				color: #333;
+			}
+
+			.token.operator,
+			.token.important,
+			.token.keyword,
+			.token.rule,
+			.token.builtin {
+				color: #a71d5d;
+			}
+
+			.token.string,
+			.token.url,
+			.token.regex,
+			.token.attr-value {
+				color: #183691;
+			}
+
+			.token.property,
+			.token.number,
+			.token.boolean,
+			.token.entity,
+			.token.atrule,
+			.token.constant,
+			.token.symbol,
+			.token.command,
+			.token.code {
+				color: #0086b3;
+			}
+
+			.token.tag,
+			.token.selector,
+			.token.prolog {
+				color: #63a35c;
+			}
+
+			.token.function,
+			.token.namespace,
+			.token.pseudo-element,
+			.token.class,
+			.token.class-name,
+			.token.pseudo-class,
+			.token.id,
+			.token.url-reference .token.variable,
+			.token.attr-name {
+				color: #795da3;
+			}
+
+			.token.entity {
+				cursor: help;
+			}
+
+			.token.title,
+			.token.title .token.punctuation {
+				font-weight: bold;
+				color: #1d3e81;
+			}
+
+			.token.list {
+				color: #ed6a43;
+			}
+
+			.token.inserted {
+				background-color: #eaffea;
+				color: #55a532;
+			}
+
+			.token.deleted {
+				background-color: #ffecec;
+				color: #bd2c00;
+			}
+
+			.token.bold {
+				font-weight: bold;
+			}
+
+			.token.italic {
+				font-style: italic;
+			}
+
+
+			/* JSON */
+			.language-json .token.property {
+				color: #183691;
+			}
+
+			.language-markup .token.tag .token.punctuation {
+				color: #333;
+			}
+
+			/* CSS */
+			code.language-css,
+			.language-css .token.function {
+				color: #0086b3;
+			}
+
+			/* YAML */
+			.language-yaml .token.atrule {
+				color: #63a35c;
+			}
+
+			code.language-yaml {
+				color: #183691;
+			}
+
+			/* Ruby */
+			.language-ruby .token.function {
+				color: #333;
+			}
+
+			/* Markdown */
+			.language-markdown .token.url {
+				color: #795da3;
+			}
+
+			/* Makefile */
+			.language-makefile .token.symbol {
+				color: #795da3;
+			}
+
+			.language-makefile .token.variable {
+				color: #183691;
+			}
+
+			.language-makefile .token.builtin {
+				color: #0086b3;
+			}
+
+			/* Bash */
+			.language-bash .token.keyword {
+				color: #0086b3;
+			}
+
+			/* highlight */
+			pre[data-line] {
+				position: relative;
+				padding: 1em 0 1em 3em;
+			}
+
+			pre[data-line] .line-highlight-wrapper {
+				position: absolute;
+				top: 0;
+				left: 0;
+				background-color: transparent;
+				display: block;
+				width: 100%;
+			}
+
+			pre[data-line] .line-highlight {
+				position: absolute;
+				left: 0;
+				right: 0;
+				padding: inherit 0;
+				margin-top: 1em;
+				background: hsla(24, 20%, 50%, .08);
+				background: linear-gradient(to right, hsla(24, 20%, 50%, .1) 70%, hsla(24, 20%, 50%, 0));
+				pointer-events: none;
+				line-height: inherit;
+				white-space: pre;
+			}
+
+			pre[data-line] .line-highlight:before,
+			pre[data-line] .line-highlight[data-end]:after {
+				content: attr(data-start);
+				position: absolute;
+				top: .4em;
+				left: .6em;
+				min-width: 1em;
+				padding: 0 .5em;
+				background-color: hsla(24, 20%, 50%, .4);
+				color: hsl(24, 20%, 95%);
+				font: bold 65%/1.5 sans-serif;
+				text-align: center;
+				vertical-align: .3em;
+				border-radius: 999px;
+				text-shadow: none;
+				box-shadow: 0 1px white;
+			}
+
+			pre[data-line] .line-highlight[data-end]:after {
+				content: attr(data-end);
+				top: auto;
+				bottom: .4em;
+			}
+
+			html body {
+				font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+				font-size: 16px;
+				line-height: 1.6;
+				color: #333;
+				background-color: #fff;
+				overflow: initial;
+				box-sizing: border-box;
+				word-wrap: break-word
+			}
+
+			html body>:first-child {
+				margin-top: 0
+			}
+
+			html body h1,
+			html body h2,
+			html body h3,
+			html body h4,
+			html body h5,
+			html body h6 {
+				line-height: 1.2;
+				margin-top: 1em;
+				margin-bottom: 16px;
+				color: #000
+			}
+
+			html body h1 {
+				font-size: 2.25em;
+				font-weight: 300;
+				padding-bottom: .3em
+			}
+
+			html body h2 {
+				font-size: 1.75em;
+				font-weight: 400;
+				padding-bottom: .3em
+			}
+
+			html body h3 {
+				font-size: 1.5em;
+				font-weight: 500
+			}
+
+			html body h4 {
+				font-size: 1.25em;
+				font-weight: 600
+			}
+
+			html body h5 {
+				font-size: 1.1em;
+				font-weight: 600
+			}
+
+			html body h6 {
+				font-size: 1em;
+				font-weight: 600
+			}
+
+			html body h1,
+			html body h2,
+			html body h3,
+			html body h4,
+			html body h5 {
+				font-weight: 600
+			}
+
+			html body h5 {
+				font-size: 1em
+			}
+
+			html body h6 {
+				color: #5c5c5c
+			}
+
+			html body strong {
+				color: #000
+			}
+
+			html body del {
+				color: #5c5c5c
+			}
+
+			html body a:not([href]) {
+				color: inherit;
+				text-decoration: none
+			}
+
+			html body a {
+				color: #08c;
+				text-decoration: none
+			}
+
+			html body a:hover {
+				color: #00a3f5;
+				text-decoration: none
+			}
+
+			html body img {
+				max-width: 100%
+			}
+
+			html body>p {
+				margin-top: 0;
+				margin-bottom: 16px;
+				word-wrap: break-word
+			}
+
+			html body>ul,
+			html body>ol {
+				margin-bottom: 16px
+			}
+
+			html body ul,
+			html body ol {
+				padding-left: 2em
+			}
+
+			html body ul.no-list,
+			html body ol.no-list {
+				padding: 0;
+				list-style-type: none
+			}
+
+			html body ul ul,
+			html body ul ol,
+			html body ol ol,
+			html body ol ul {
+				margin-top: 0;
+				margin-bottom: 0
+			}
+
+			html body li {
+				margin-bottom: 0
+			}
+
+			html body li.task-list-item {
+				list-style: none
+			}
+
+			html body li>p {
+				margin-top: 0;
+				margin-bottom: 0
+			}
+
+			html body .task-list-item-checkbox {
+				margin: 0 .2em .25em -1.8em;
+				vertical-align: middle
+			}
+
+			html body .task-list-item-checkbox:hover {
+				cursor: pointer
+			}
+
+			html body blockquote {
+				margin: 16px 0;
+				font-size: inherit;
+				padding: 0 15px;
+				color: #5c5c5c;
+				border-left: 4px solid #d6d6d6
+			}
+
+			html body blockquote>:first-child {
+				margin-top: 0
+			}
+
+			html body blockquote>:last-child {
+				margin-bottom: 0
+			}
+
+			html body hr {
+				height: 4px;
+				margin: 32px 0;
+				background-color: #d6d6d6;
+				border: 0 none
+			}
+
+			html body table {
+				margin: 10px 0 15px 0;
+				border-collapse: collapse;
+				border-spacing: 0;
+				display: block;
+				width: 100%;
+				overflow: auto;
+				word-break: normal;
+				word-break: keep-all
+			}
+
+			html body table th {
+				font-weight: bold;
+				color: #000
+			}
+
+			html body table td,
+			html body table th {
+				border: 1px solid #d6d6d6;
+				padding: 6px 13px
+			}
+
+			html body dl {
+				padding: 0
+			}
+
+			html body dl dt {
+				padding: 0;
+				margin-top: 16px;
+				font-size: 1em;
+				font-style: italic;
+				font-weight: bold
+			}
+
+			html body dl dd {
+				padding: 0 16px;
+				margin-bottom: 16px
+			}
+
+			html body code {
+				font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
+				font-size: .85em !important;
+				color: #000;
+				background-color: #f0f0f0;
+				border-radius: 3px;
+				padding: .2em 0
+			}
+
+			html body code::before,
+			html body code::after {
+				letter-spacing: -0.2em;
+				content: "\00a0"
+			}
+
+			html body pre>code {
+				padding: 0;
+				margin: 0;
+				font-size: .85em !important;
+				word-break: normal;
+				white-space: pre;
+				background: transparent;
+				border: 0
+			}
+
+			html body .highlight {
+				margin-bottom: 16px
+			}
+
+			html body .highlight pre,
+			html body pre {
+				padding: 1em;
+				overflow: auto;
+				font-size: .85em !important;
+				line-height: 1.45;
+				border: #d6d6d6;
+				border-radius: 3px
+			}
+
+			html body .highlight pre {
+				margin-bottom: 0;
+				word-break: normal
+			}
+
+			html body pre code,
+			html body pre tt {
+				display: inline;
+				max-width: initial;
+				padding: 0;
+				margin: 0;
+				overflow: initial;
+				line-height: inherit;
+				word-wrap: normal;
+				background-color: transparent;
+				border: 0
+			}
+
+			html body pre code:before,
+			html body pre tt:before,
+			html body pre code:after,
+			html body pre tt:after {
+				content: normal
+			}
+
+			html body p,
+			html body blockquote,
+			html body ul,
+			html body ol,
+			html body dl,
+			html body pre {
+				margin-top: 0;
+				margin-bottom: 16px
+			}
+
+			html body kbd {
+				color: #000;
+				border: 1px solid #d6d6d6;
+				border-bottom: 2px solid #c7c7c7;
+				padding: 2px 4px;
+				background-color: #f0f0f0;
+				border-radius: 3px
+			}
+
+			@media print {
+				html body {
+					background-color: #fff
+				}
+
+				html body h1,
+				html body h2,
+				html body h3,
+				html body h4,
+				html body h5,
+				html body h6 {
+					color: #000;
+					page-break-after: avoid
+				}
+
+				html body blockquote {
+					color: #5c5c5c
+				}
+
+				html body pre {
+					page-break-inside: avoid
+				}
+
+				html body table {
+					display: table
+				}
+
+				html body img {
+					display: block;
+					max-width: 100%;
+					max-height: 100%
+				}
+
+				html body pre,
+				html body code {
+					word-wrap: break-word;
+					white-space: pre
+				}
+			}
+
+			.markdown-preview {
+				width: 100%;
+				height: 100%;
+				box-sizing: border-box
+			}
+
+			.markdown-preview .pagebreak,
+			.markdown-preview .newpage {
+				page-break-before: always
+			}
+
+			.markdown-preview pre.line-numbers {
+				position: relative;
+				padding-left: 3.8em;
+				counter-reset: linenumber
+			}
+
+			.markdown-preview pre.line-numbers>code {
+				position: relative
+			}
+
+			.markdown-preview pre.line-numbers .line-numbers-rows {
+				position: absolute;
+				pointer-events: none;
+				top: 1em;
+				font-size: 100%;
+				left: 0;
+				width: 3em;
+				letter-spacing: -1px;
+				border-right: 1px solid #999;
+				-webkit-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none
+			}
+
+			.markdown-preview pre.line-numbers .line-numbers-rows>span {
+				pointer-events: none;
+				display: block;
+				counter-increment: linenumber
+			}
+
+			.markdown-preview pre.line-numbers .line-numbers-rows>span:before {
+				content: counter(linenumber);
+				color: #999;
+				display: block;
+				padding-right: .8em;
+				text-align: right
+			}
+
+			.markdown-preview .mathjax-exps .MathJax_Display {
+				text-align: center !important
+			}
+
+			.markdown-preview:not([for="preview"]) .code-chunk .btn-group {
+				display: none
+			}
+
+			.markdown-preview:not([for="preview"]) .code-chunk .status {
+				display: none
+			}
+
+			.markdown-preview:not([for="preview"]) .code-chunk .output-div {
+				margin-bottom: 16px
+			}
+
+			.scrollbar-style::-webkit-scrollbar {
+				width: 8px
+			}
+
+			.scrollbar-style::-webkit-scrollbar-track {
+				border-radius: 10px;
+				background-color: transparent
+			}
+
+			.scrollbar-style::-webkit-scrollbar-thumb {
+				border-radius: 5px;
+				background-color: rgba(150, 150, 150, 0.66);
+				border: 4px solid rgba(150, 150, 150, 0.66);
+				background-clip: content-box
+			}
+
+			html body[for="html-export"]:not([data-presentation-mode]) {
+				position: relative;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				margin: 0;
+				padding: 0;
+				overflow: auto
+			}
+
+			html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview {
+				position: relative;
+				top: 0
+			}
+
+			@media screen and (min-width:914px) {
+				html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview {
+					padding: 2em calc(50% - 457px)
+				}
+			}
+
+			@media screen and (max-width:914px) {
+				html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview {
+					padding: 2em
+				}
+			}
+
+			@media screen and (max-width:450px) {
+				html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview {
+					font-size: 14px !important;
+					padding: 1em
+				}
+			}
+
+			@media print {
+				html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn {
+					display: none
+				}
+			}
+
+			html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn {
+				position: fixed;
+				bottom: 8px;
+				left: 8px;
+				font-size: 28px;
+				cursor: pointer;
+				color: inherit;
+				z-index: 99;
+				width: 32px;
+				text-align: center;
+				opacity: .4
+			}
+
+			html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn {
+				opacity: 1
+			}
+
+			html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc {
+				position: fixed;
+				top: 0;
+				left: 0;
+				width: 300px;
+				height: 100%;
+				padding: 32px 0 48px 0;
+				font-size: 14px;
+				box-shadow: 0 0 4px rgba(150, 150, 150, 0.33);
+				box-sizing: border-box;
+				overflow: auto;
+				background-color: inherit
+			}
+
+			html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar {
+				width: 8px
+			}
+
+			html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track {
+				border-radius: 10px;
+				background-color: transparent
+			}
+
+			html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb {
+				border-radius: 5px;
+				background-color: rgba(150, 150, 150, 0.66);
+				border: 4px solid rgba(150, 150, 150, 0.66);
+				background-clip: content-box
+			}
+
+			html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a {
+				text-decoration: none
+			}
+
+			html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul {
+				padding: 0 1.6em;
+				margin-top: .8em
+			}
+
+			html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc li {
+				margin-bottom: .8em
+			}
+
+			html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul {
+				list-style-type: none
+			}
+
+			html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview {
+				left: 300px;
+				width: calc(100% - 300px);
+				padding: 2em calc(50% - 457px - 150px);
+				margin: 0;
+				box-sizing: border-box
+			}
+
+			@media screen and (max-width:1274px) {
+				html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview {
+					padding: 2em
+				}
+			}
+
+			@media screen and (max-width:450px) {
+				html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview {
+					width: 100%
+				}
+			}
+
+			html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview {
+				left: 50%;
+				transform: translateX(-50%)
+			}
+
+			html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc {
+				display: none
+			}
+
+			/* Please visit the URL below for more information: */
+			/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+		</style>
+	</head>
+	<body for="html-export">
+		<div class="mume markdown-preview   ">
+			<p>La nostra Informativa sulla privacy &#xE8; stata aggiornata il 28 febbraio 2019. Abbiamo totalmente rinnovato
+				l&apos;Informativa sulla privacy in modo che, a partire da tale data, possa fornire i dettagli sulla modalit&#xE0;
+				di gestione dei dati personali per il software e i servizi Mi Smartphone Gimbal forniti da Beijing FIMI Technology
+				Co., LTD.</p>
+			<p>Invitiamo l&apos;utente a prendersi del tempo per familiarizzare con le nostre prassi di gestione della privacy e
+				contattarci per eventuali domande.</p>
+			<p><strong>IL NOSTRO IMPEGNO NEI CONFRONTI DELL&apos;UTENTE</strong></p>
+			<p>Questa Informativa sulla privacy stabilisce come Beijing FIMI Technology Co., LTD (in seguito &quot;FIMI&quot;)
+				raccoglie, utilizza, divulga, tratta e protegge tutti i dati forniti dall&apos;utente durante l&apos;utilizzo del
+				software e dei servizi di Mi Smartphone Gimbal. Qualora dovessimo chiedere di fornire determinati dati che
+				potrebbero identificare l&apos;utente durante l&apos;utilizzo del software e dei servizi di Mi Smartphone Gimbal,
+				tali dati saranno utilizzati solo in conformit&#xE0; con la presente Informativa sulla privacy e/o i nostri termini
+				e condizioni per gli utenti.</p>
+			<p>L&apos;Informativa sulla privacy &#xE8; definita a tutela dell&apos;utente ed &#xE8; importante che questi abbia
+				una comprensione completa delle nostre prassi di raccolta e utilizzo dei dati personali, nonch&#xE9; la piena
+				fiducia nel fatto che pu&#xF2; controllare qualsiasi informazione personale fornita a FIMI.</p>
+			<p>Nella presente Informativa sulla privacy, per &quot;dati personali&quot; si intendono le informazioni che
+				consentono l&apos;identificazione di un individuo, sia prese singolarmente che combinate con altre informazioni a
+				cui FIMI ha accesso in relazione a tale individuo. Tali informazioni personali possono includere, a titolo
+				esemplificativo ma non esaustivo, le informazioni fornite dall&apos;utente quali ID MI, ID drone, avatar, nickname,
+				numero di cellulare, indirizzo e-mail, ecc.</p>
+			<p>Utilizzando i software e i servizi di Mi Smartphone Gimbal, si ritiene che l&apos;utente abbia letto, preso atto
+				di e accettato tutte le disposizioni riportate nell&apos;Informativa sulla privacy, incluse eventuali modifiche
+				apportate di volta in volta. Per rispettare le leggi applicabili, compresa la legislazione locale sulla protezione
+				dei dati (per es. il Regolamento generale sulla protezione dei dati nell&apos;Unione Europea), cercheremo
+				espressamente un consenso esplicito preliminare al particolare trattamento (per es. nel caso del processo
+				decisionale individuale automatizzato) di categorie speciali di dati personali. Ci impegniamo a proteggere la
+				privacy, la riservatezza e la sicurezza delle informazioni personali dell&apos;utente rispettando le norme vigenti,
+				compresa la legislazione locale in materia di protezione dei dati. Ci impegniamo inoltre affinch&#xE9; tutti i
+				nostri dipendenti e agenti rispettino tali obblighi.</p>
+			<p>In definitiva, desideriamo il meglio per tutti i nostri utenti. In caso di dubbi sulle nostre pratiche di
+				gestione dei dati come riepilogate nella presente Informativa sulla privacy, contattare il nostro Responsabile
+				della protezione dei dati all&apos;indirizzo privacy@fimi.com per trovare la
+				soluzione alle esigenze specifiche dell&apos;utente. Saremo lieti di rispondere direttamente.</p>
+			<p><strong>QUALI DATI VENGONO RACCOLTI E COME LI UTILIZZIAMO?</strong></p>
+			<p><strong>TIPI DI DATI RACCOLTI</strong></p>
+			<p>Per erogare i nostri servizi all&apos;utente, chiederemo all&apos;utente di fornire i dati personali necessari.
+				Se l&apos;utente non condivide con noi i suoi dati personali, potremmo non essere in grado di fornire i nostri
+				prodotti o servizi.</p>
+			<p>Raccoglieremo soltanto le informazioni che sono necessarie per i relativi scopi specificati, legittimi ed
+				espliciti, senza elaborarle ulteriormente in modalit&#xE0; incompatibili con tali scopi. Possiamo raccogliere i
+				seguenti tipi di informazioni (che possono essere dati personali o meno):</p>
+			<ul>
+				<li>
+					<p><strong>Informazioni fornite o caricate dall&apos;utente:</strong> possiamo raccogliere le informazioni
+						personali fornite dall&apos;utente quali il suo ID Xiaomi, ID FIMI, ID Twitter, ID Facebook, avatar, nickname,
+						indirizzo e-mail e qualsiasi altra informazione fornita per la registrazione e l&apos;accesso.</p>
+				</li>
+				<li>
+					<p><strong>Informazioni del dispositivo:</strong> informazioni relative al dispositivo dell&apos;utente. Ad
+						esempio, numero di versione del software, tipo di client (Android/iOS), modello del dispositivo, numero di
+						versione del firmware del dispositivo, per garantire all&apos;utente l&apos;utilizzo delle funzioni software
+						pi&#xF9; aggiornate.</p>
+				</li>
+				<li>
+					<p><strong>Informazioni sul log:</strong> informazioni relative all&apos;utilizzo da parte dell&apos;utente, ad
+						esempio, le informazioni sui crash. In questo modo possiamo identificare e risolvere i problemi del software
+						dell&apos;utente.</p>
+				</li>
+				<li>
+					<p><strong>Alcune informazioni dal telefono dell&apos;utente:</strong> raccoglieremo informazioni relative alle
+						impostazioni della lingua e dell&apos;area dal telefono cellulare dell&apos;utente in modo da poter identificare
+						il server pi&#xF9; indicato per la conservazione dei dati e la lingua dell&apos;applicazione necessaria per
+						l&apos;utente.</p>
+				</li>
+				<li>
+					<p><strong>Tempo di utilizzo del dispositivo:</strong> raccogliamo informazioni sul tempo di utilizzo
+						dell&apos;apparecchio dell&apos;utente per migliorare il servizio offerto.</p>
+				</li>
+				<li>
+					<p><strong>Informazioni su Bluetooth (soltanto per servizi/funzioni specifici):</strong> possiamo raccogliere e
+						utilizzare il permesso dell&apos;utente per localizzare la posizione del dispositivo nella ricerca di Bluetooth
+						nelle vicinanze. A scanso di equivoci, tale permesso non verr&#xE0; caricato sul server FIMI.</p>
+				</li>
+				<li>
+					<p><strong>Informazioni sulla</strong> <strong>galleria:</strong> Quando l&apos;utente utilizza le
+						funzionalit&#xE0; della Galleria, raccogliamo le immagini e i video offerti dall&apos;utente e acquisiti dalla
+						app Mi Smartphone Gimbal, quindi l&apos;utente pu&#xF2; utilizzare il software per visualizzare ed eliminare
+						immagini e video. Le immagini e i video saranno disponibili soltanto in locale per l&apos;accesso
+						dell&apos;utente e non verranno caricati sul server FIMI.</p>
+				</li>
+			</ul>
+			<p><strong>COME VENGONO UTILIZZATI I DATI PERSONALI</strong></p>
+			<p>I dati personali vengono raccolti per la fornitura di servizi e/o prodotti all&apos;utente e per la
+				conformit&#xE0; legale da parte nostra secondo le leggi applicabili. L&apos;utente accetta che noi possiamo
+				trattare e divulgare i dati personali alle nostre societ&#xE0; affiliate (che operano nei settori della
+				comunicazione, social media, tecnologia e cloud), fornitori di servizi di terze parti (definiti di seguito) per gli
+				scopi indicati nella presente Informativa sulla privacy.</p>
+			<p>Possiamo usare i dati personali dell&apos;utente per le seguenti finalit&#xE0;:</p>
+			<ul>
+				<li>Fornire, trattare, mantenere, migliorare e sviluppare i nostri beni e/o servizi per l&apos;utente, inclusa
+					l&apos;assistenza post-vendita e l&apos;assistenza clienti e per servizi sul dispositivo dell&apos;utente o
+					tramite i nostri siti Web.</li>
+				<li>Comunicare con l&apos;utente riguardo il dispositivo, il servizio o qualsiasi domanda generale, come
+					aggiornamenti, assistenza clienti, informazioni sui nostri eventi, avvisi.</li>
+				<li>Memorizzare e mantenere informazioni sull&apos;utente per le nostre operazioni commerciali o obblighi legali.</li>
+				<li>Fornire servizi locali senza comunicare con i nostri server.</li>
+			</ul>
+			<p>Qui di seguito sono riportati ulteriori dettagli su come utilizziamo le informazioni dell&apos;utente (che
+				possono includere informazioni personali):</p>
+			<ul>
+				<li>
+					<p><strong>Configurazione dell&apos;account.</strong> Le informazioni fornite dall&apos;utente verranno utilizzate
+						per accedere o creare un account per il software e i servizi Mi Smartphone Gimbal, per aiutare l&apos;utente a
+						connettere il dispositivo, fornire servizi personalizzati e servizi post-vendita e inviare messaggi specifici in
+						modo pi&#xF9; accurato (come notifiche di attivit&#xE0; offline, ecc.).</p>
+				</li>
+				<li>
+					<p><strong>Invio di notifiche.</strong> Le informazioni sul dispositivo verranno utilizzate per fornire
+						all&apos;utente assistenza e supporto per il dispositivo, come mettere direttamente a disposizione una versione
+						del firmware, risolvere i problemi del software, offrire servizi post-vendita, ecc.</p>
+				</li>
+				<li>
+					<p><strong>Servizi Bluetooth.</strong> Durante l&apos;utilizzo del software e dei servizi di Mi Smartphone Gimbal,
+						le informazioni sul Bluetooth dell&apos;utente verranno utilizzate per cercare dispositivi Bluetooth nelle
+						vicinanze e connettersi al dispositivo desiderato.</p>
+				</li>
+				<li>
+					<p><strong>Ottimizzazione del prodotto.</strong> Le informazioni sul dispositivo dell&apos;utente, i tempi di
+						utilizzo e le informazioni sul log verranno utilizzate per ottimizzare l&apos;hardware e il software ed offrire
+						un&apos;esperienza migliore sull&apos;uso del prodotto.</p>
+				</li>
+				<li>
+					<p><strong>Fornitura di servizi di funzionalit&#xE0; di galleria.</strong> Archiviazione di immagini e video
+						ripresi dalla app sul telefono locale per permettere all&apos;utente di visualizzarli, scaricarli ed eliminarli a
+						suo piacimento.</p>
+				</li>
+			</ul>
+			<h3 class="mume-header" id="marketing-diretto"><strong>MARKETING DIRETTO</strong></h3>
+
+			<p>Possiamo utilizzare l&apos;indirizzo e-mail, ID Account FIMI per fornire materiali di marketing relativi a beni e
+				servizi delle aziende FIMI e dei nostri partner commerciali che offrono reti, applicazioni mobili, prodotti e
+				servizi cloud. Utilizzeremo i dati personali dell&apos;utente solo dopo aver ottenuto il previo consenso esplicito
+				e aver incluso una chiara azione affermativa o l&apos;indicazione di nessuna obiezione in conformit&#xE0; con le
+				leggi locali sulla protezione dei dati, che potrebbero richiedere un consenso esplicito separato. L&apos;utente ha
+				il diritto di negare il consenso all&apos;utilizzo proposto dei propri dati personali per marketing diretto. Se non
+				si desidera pi&#xF9; ricevere determinate categorie di e-mail, &#xE8; possibile annullare l&apos;iscrizione
+				inviando un messaggio alla casella di posta elettronica  privacy@fimi.com . Non
+				trasferiremo i dati personali dell&apos;utente ai nostri partner commerciali per l&apos;utilizzo nel marketing
+				diretto.</p>
+			<p><strong>CON CHI CONDIVIDIAMO LE INFORMAZIONI DELL&apos;UTENTE</strong></p>
+			<p>Non vendiamo informazioni personali a terzi.</p>
+			<p>Potremmo rivelare in certe occasioni le informazioni personali dell&apos;utente a terzi (come descritto di
+				seguito) al fine di fornire i prodotti o servizi richiesti.</p>
+			<p>La divulgazione pu&#xF2; essere effettuata ai fornitori terzi di servizi e alle societ&#xE0; affiliate elencate
+				in seguito nella presente sezione. In ogni caso descritto in questa sezione, l&apos;utente ha la garanzia che FIMI
+				non condivider&#xE0; i suoi dati personali in assenza di un suo consenso. &#xC8; necessario ricordare che, qualora
+				FIMI condivida i dati personali dell&apos;utente con fornitori di servizi terzi nelle circostanze descritte nella
+				presente sezione, FIMI specificher&#xE0; che contrattualmente la terza parte &#xE8; obbligata a rispettare le leggi
+				in materia di protezione dei dati personali applicabili a livello locale. FIMI si impegna contrattualmente a
+				garantire il rispetto da parte di qualsiasi fornitore di servizi di terze parti delle norme sulla privacy
+				applicabili nella propria giurisdizione di residenza.</p>
+			<p><strong>CONDIVISIONE CON IL NOSTRO GRUPPO E CON FORNITORI DI SERVIZI DI TERZE PARTI</strong></p>
+			<p>Al fine di condurre al meglio le operazioni commerciali e fornire tutte le funzionalit&#xE0; dei nostri prodotti
+				e servizi, potremmo divulgare di tanto in tanto i dati personali dell&apos;utente ad altre societ&#xE0; affiliate a
+				FIMI o ai nostri fornitori di servizi di terze parti, ovvero: mailing house, fornitori di servizi di consegna,
+				societ&#xE0; di telecomunicazioni, data center, strutture per la memorizzazione dei dati, fornitori di servizio
+				clienti, fornitori di servizi pubblicitari, marketing e rappresentanti di FIMI. Tali fornitori di servizi di terze
+				parti tratteranno le informazioni personali dell&apos;utente per conto di FIMI o per una o pi&#xF9; delle
+				finalit&#xE0; sopra elencate. Se si desidera impedire la divulgazione di tali informazioni, scrivere
+				all&apos;indirizzo privacy@fimi.com.</p>
+			<p><strong>CONDIVISIONE CON LE AZIENDE DELL&apos;ECOSISTEMA DEL NOSTRO GRUPPO</strong></p>
+			<p>Xiaomi collabora con un gruppo di societ&#xE0;, che insieme formano l&apos;Ecosistema Mi. Le societ&#xE0;
+				dell&apos;Ecosistema Mi sono entit&#xE0; indipendenti, investite e incubate da Xiaomi e sono esperte nei rispettivi
+				campi di riferimento. FIMI pu&#xF2; divulgare i dati personali dell&apos;utente a Xiaomi o ad altre societ&#xE0;
+				dell&apos;Ecosistema Mi in modo da fornire e migliorare i prodotti e i servizi (sia hardware che software)
+				dell&apos;Ecosistema Mi. Alcuni di questi prodotti e servizi continueranno ad essere sotto il marchio FIMI, mentre
+				altri possono utilizzare il proprio marchio. Se FIMI &#xE8; coinvolta in una fusione, acquisizione o vendita di
+				tutte o parte delle attivit&#xE0;, l&apos;utente sar&#xE0; informato, via e-mail e/o tramite un avviso visibile sul
+				nostro sito Web, di qualsiasi cambiamento di propriet&#xE0;, utilizzo delle informazioni personali e scelte che
+				l&apos;utente pu&#xF2; avere riguardo alle proprie informazioni personali.</p>
+			<p><strong>CONDIVISIONE CON ALTRI</strong></p>
+			<p>FIMI pu&#xF2; divulgare i dati personali dell&apos;utente senza richiedere un ulteriore consenso quando richiesto
+				dalle leggi applicabili.</p>
+			<p><strong>INFORMAZIONI CHE NON RICHIEDONO IL CONSENSO</strong></p>
+			<p>Potremmo condividere informazioni anonime e statistiche in forma aggregata con terze parti per scopi commerciali,
+				ad esempio con gli inserzionisti sul nostro sito Web, potremmo condividere le tendenze sull&apos;uso generale dei
+				nostri servizi, come il numero di clienti in determinati gruppi demografici che hanno acquistato determinati
+				prodotti o che hanno effettuato determinate transazioni.</p>
+			<p>A scanso di equivoci, FIMI pu&#xF2; raccogliere, utilizzare o divulgare le informazioni personali
+				dell&apos;utente senza il suo consenso, se e solo nella misura in cui ci&#xF2; &#xE8; consentito esplicitamente
+				dalle leggi locali sulla protezione dei dati. Tale divulgazione pu&#xF2; essere determinata dalla necessit&#xE0; di
+				proteggere i nostri diritti, garantire la sicurezza dell&apos;utente e di altre persone e rispettare i requisiti
+				del governo locale per facilitare le indagini sulle attivit&#xE0; illegali.</p>
+			<p><strong>GARANZIE DI SICUREZZA</strong></p>
+			<p><strong>MISURE DI SICUREZZA DI FIMI</strong></p>
+			<p>Ci impegniamo a garantire che i dati personali dell&apos;utente siano protetti. Al fine di prevenire
+				l&apos;accesso non autorizzato, la divulgazione o altri rischi simili, abbiamo messo in atto ragionevoli procedure
+				fisiche, elettroniche e gestionali per salvaguardare e proteggere le informazioni che raccogliamo
+				dall&apos;utilizzo di prodotti e servizi FIMI da parte dell&apos;utente o dai siti web di FIMI. Attueremo ogni
+				ragionevole sforzo per salvaguardare i dati personali dell&apos;utente.</p>
+			<p>Ad esempio, quando si accede al proprio account FIMI, &#xE8; possibile scegliere di utilizzare il nostro processo
+				di verifica in due passaggi per una migliore sicurezza. Quando si inviano o ricevono dati dal dispositivo FIMI ai
+				nostri server, ci assicuriamo che siano crittografati utilizzando Secure Sockets Layer (&quot;SSL&quot;) e altri
+				algoritmi.</p>
+			<p>Tutte le informazioni personali dell&apos;utente sono memorizzate su server sicuri, protetti in strutture
+				controllate. Classifichiamo i dati in base all&apos;importanza e alla sensibilit&#xE0; e garantiamo che le
+				informazioni personali abbiano il massimo livello di sicurezza. Ci assicuriamo che i nostri dipendenti e i
+				fornitori terzi di servizi che accedono alle informazioni per contribuire a fornire i nostri prodotti e servizi
+				siano soggetti a rigidi obblighi contrattuali di riservatezza e possano essere disciplinati o soggetti a
+				rescissione del contratto con noi se non adempiono a tali obblighi. Disponiamo di speciali controlli di accesso
+				anche per l&apos;archiviazione dei dati nel cloud. Nel complesso, rivediamo regolarmente le nostre procedure di
+				raccolta, archiviazione e trattamento delle informazioni, comprese le misure di sicurezza fisica, per proteggerle
+				da accessi e utilizzi non autorizzati.</p>
+			<p>Metteremo in pratica tutte le azioni necessarie per salvaguardare i dati personali dell&apos;utente. Tuttavia,
+				l&apos;utente deve essere consapevole del fatto che l&apos;uso di Internet non &#xE8; completamente sicuro e per
+				questo motivo non possiamo garantire la sicurezza o l&apos;integrit&#xE0; di qualsiasi dato personale che viene
+				trasferito dall&apos;utente o all&apos;utente tramite Internet.</p>
+			<p><strong>COSA SI PU&#xD2; FARE</strong></p>
+			<ul>
+				<li>Ognuno pu&#xF2; fare la propria parte per proteggere le informazioni personali, non divulgando la propria
+					password di accesso o le informazioni dell&apos;account a nessuno, a meno che tale persona non sia debitamente
+					autorizzata. Ogni volta che si accede come utente di un account FIMI, in particolare sul computer di qualcun altro
+					o su terminali Internet pubblici, &#xE8; necessario disconnettersi sempre alla fine della sessione.</li>
+				<li>FIMI non pu&#xF2; essere ritenuta responsabile di eventuali falle nella sicurezza causate dall&apos;accesso da
+					parte di terzi ai dati personali dell&apos;utente in conseguenza dell&apos;incapacit&#xE0; di quest&apos;ultimo a
+					mantenerne la riservatezza. Fermo restando quanto precede, l&apos;utente &#xE8; tenuto a notificarci
+					immediatamente qualsiasi uso non autorizzato del proprio account da parte di qualsiasi altro utente di Internet o
+					qualsiasi altra violazione della sicurezza.</li>
+				<li>La collaborazione dell&apos;utente ci aiuter&#xE0; a proteggere la sicurezza delle informazioni personali.</li>
+			</ul>
+			<p><strong>POLITICA DI CONSERVAZIONE</strong></p>
+			<p>Le informazioni personali saranno conservate per tutto il tempo necessario al conseguimento degli scopi per i
+				quali sono state raccolte, o come richiesto o consentito dalle norme vigenti. Cesseremo di conservare i dati
+				personali o rimuoveremo i mezzi con cui essi possono essere associati a particolari individui, non appena sar&#xE0;
+				ragionevole presumere che la finalit&#xE0; per la quale tali dati personali sono stati raccolti non &#xE8; pi&#xF9;
+				correlata alla conservazione dei dati personali. Se l&apos;ulteriore elaborazione &#xE8; per scopi di archiviazione
+				di interesse pubblico, ricerca scientifica o storica o scopi statistici in conformit&#xE0; con le leggi
+				applicabili, le informazioni possono essere conservate pi&#xF9; a lungo da FIMI anche se l&apos;ulteriore
+				elaborazione non &#xE8; compatibile con gli scopi originali.</p>
+			<p>Tutte le informazioni personali sul dispositivo verranno eliminate se si ripristina il dispositivo alle
+				impostazioni predefinite di fabbrica. Questa impostazione pu&#xF2; essere implementata nelle impostazioni
+				dell&apos;app. Le foto e i video acquisiti dall&apos;app vengono salvati nel telefono cellulare e quindi possono
+				essere cancellati manualmente.</p>
+			<h2 class="mume-header" id="accesso-ad-altre-funzioni-sul-dispositivo"><strong>ACCESSO AD ALTRE FUNZIONI SUL
+					DISPOSITIVO</strong></h2>
+
+			<p>Le nostre applicazioni potrebbero richiedere l&apos;accesso a determinate funzioni del dispositivo
+				dell&apos;utente, come lo stato Bluetooth. Queste informazioni vengono utilizzate per consentire l&apos;esecuzione
+				delle applicazioni sul dispositivo e l&apos;interazione dell&apos;utente con le applicazioni stesse. L&apos;utente
+				pu&#xF2; in qualsiasi momento revocare le autorizzazioni disattivando tali funzioni a livello di dispositivo oppure
+				contattandoci all&apos;indirizzo privacy@fimi.com </p>
+			<p><strong>L&apos;UTENTE HA IL CONTROLLO DELLE PROPRIE INFORMAZIONI.</strong></p>
+			<p><strong>CONTROLLO DELLE IMPOSTAZIONI</strong></p>
+			<p>FIMI riconosce che le preoccupazioni in materia di privacy variano da persona a persona. Pertanto, forniamo
+				esempi dei modi in cui FIMI mette a disposizione dell&apos;utente la scelta di limitare la raccolta, l&apos;uso, la
+				divulgazione o l&apos;elaborazione delle sue informazioni personali e di controllare le impostazioni sulla privacy:</p>
+			<ul>
+				<li>Accesso o uscita dall&apos;account FIMI</li>
+			</ul>
+			<p>Se l&apos;utente ci ha consentito in precedenza di utilizzare le sue informazioni personali per scopi sopra
+				riportati, &#xE8; possibile cambiare idea in qualsiasi momento scrivendoci o inviandoci un&apos;e-mail
+				all&apos;indirizzo privacy@fimi.com.</p>
+			<p><strong>ACCEDERE, AGGIORNARE, CORREGGERE O CANCELLARE I DATI PERSONALI</strong></p>
+			<ul>
+				<li>L&apos;utente ha il diritto di richiedere l&apos;accesso e/o la correzione di qualsiasi altra informazione
+					personale in nostro possesso. Quando aggiorna le informazioni personali, l&apos;utente dovr&#xE0; verificare la
+					propria identit&#xE0; prima di procedere con la richiesta. Una volta ottenuti dati sufficienti per soddisfare la
+					richiesta di accesso o la correzione dei dati personali, procederemo a rispondere alla richiesta entro i termini
+					stabiliti dalle leggi applicabili sulla protezione dei dati.</li>
+				<li>Una copia delle informazioni personali dell&apos;utente raccolte ed elaborate verr&#xE0; fornita
+					all&apos;utente gratuitamente in seguito a richiesta. Per ogni richiesta aggiuntiva delle stesse informazioni,
+					potremo addebitare un costo ragionevole basato sugli effettivi costi amministrativi in conformit&#xE0; con le
+					norme vigenti.</li>
+				<li>Se si desidera richiedere l&apos;accesso alle proprie informazioni personali in nostro possesso o se si ritiene
+					che qualsiasi informazione in proprio possesso sia errata o incompleta, occorre inviarci una e-mail il prima
+					possibile all&apos;indirizzo e-mail riportato di seguito. E-mail: privacy@fimi.com
+					</li>
+				<li>Se l&apos;utente proviene dall&apos;Unione Europea ed &#xE8; sottoposto al regolamento generale sulla
+					protezione dei dati (GDPR), l&apos;utente ha il diritto di ottenere da noi la cancellazione delle proprie
+					informazioni personali. Valuteremo i motivi riguardanti la richiesta di cancellazione da parte dell&apos;utente e
+					adotteremo misure ragionevoli, incluse misure tecniche, se i motivi si applicano al GDPR.</li>
+				<li>Se l&apos;utente proviene dall&apos;Unione Europea ed &#xE8; sottoposto al GDPR, gli &#xE8; garantito il
+					diritto di ottenere da noi la restrizione del trattamento delle proprie informazioni personali. Valuteremo i
+					motivi riguardanti la richiesta di restrizione da parte dell&apos;utente. Se i motivi si applicano al GDPR,
+					tratteremo le informazioni personali dell&apos;utente soltanto in circostanze applicabili in conformit&#xE0; con
+					il GDPR e informeremo l&apos;utente prima di revocare la restrizione del trattamento.</li>
+				<li>Se l&apos;utente proviene dall&apos;Unione Europea ed &#xE8; sottoposto al GDPR, l&apos;utente ha il diritto di
+					non essere soggetto a una decisione basata esclusivamente su trattamento automatizzato, inclusa la classificazione
+					del profilo, che produce effetti legali riguardanti l&apos;utente o che, analogamente, abbia effetto in modo
+					significativo sull&apos;utente.</li>
+				<li>Se l&apos;utente proviene dall&apos;Unione Europea ed &#xE8; sottoposto al GDPR, l&apos;utente ha il diritto di
+					ricevere le proprie informazioni personali in un formato strutturato comunemente utilizzato e di trasmettere tali
+					informazioni a un altro responsabile del trattamento.</li>
+			</ul>
+			<p><strong>REVOCA DEL CONSENSO</strong></p>
+			<p>&#xC8; possibile revocare il consenso alla raccolta, utilizzo e/o divulgazione delle informazioni personali in
+				nostro possesso o sotto il nostro controllo inviando una richiesta. Inviare un&apos;e-mail all&apos;indirizzo 
+	        privacy@fimi.com. Elaboreremo la richiesta dell&apos;utente entro un periodo di
+				tempo ragionevole dal momento in cui &#xE8; stata presentata, e successivamente non raccoglieremo, utilizzeremo e/o
+				divulgheremo i dati personali dell&apos;utente come da richiesta.</p>
+			<p>Si prega di tenere presente che la revoca del consenso potrebbe comportare alcune conseguenze giuridiche. A
+				seconda della misura di revoca del consenso al trattamento delle informazioni personali da parte nostra,
+				l&apos;utente potrebbe non essere pi&#xF9; in grado di utilizzare i prodotti e i servizi FIMI.</p>
+			<h2 class="mume-header" id="trasferimento-delle-informazioni-personali-al-di-fuori-della-giurisdizione-dell39utente"><strong>TRASFERIMENTO
+					DELLE INFORMAZIONI PERSONALI AL DI FUORI DELLA GIURISDIZIONE DELL&apos;UTENTE</strong></h2>
+
+			<p>Nella misura in cui potremmo avere bisogno di trasferire informazioni personali al di fuori della giurisdizione
+				dell&apos;utente, sia alle nostre societ&#xE0; affiliate o a fornitori di servizi di terze parti, lo faremo in
+				conformit&#xE0; con le leggi applicabili. In particolare, ci assicureremo che tutti i trasferimenti siano conformi
+				ai requisiti previsti dalle norme vigenti in materia di protezione dei dati a livello locale, mettendo in atto
+				adeguate misure di tutela. L&apos;utente avr&#xE0; il diritto di essere informato delle opportune misure di
+				sicurezza adottate da FIMI per questo trasferimento delle informazioni personali</p>
+			<p>FIMI pu&#xF2; utilizzare strutture all&apos;estero gestite e controllate da FIMI per elaborare o eseguire il
+				backup delle informazioni personali dell&apos;utente. Attualmente, FIMI dispone di data center in Cina, Germania,
+				India, Russia, Singapore e Stati Uniti. Queste giurisdizioni straniere possono avere o meno leggi sulla protezione
+				dei dati che sono sostanzialmente simili a quelle della giurisdizione dell&apos;utente. Possiamo trasferire e
+				archiviare i dati personali dell&apos;utente presso le nostre sedi estere, ma questo non ha alcun effetto sul
+				nostro impegno di salvaguardia dei dati personali in conformit&#xE0; con la presente Informativa sulla privacy.
+				Attualmente, se l&apos;utente risiede nell&apos;Unione Europea, i suoi dati personali saranno archiviati e protetti
+				nel server situato in Germania in conformit&#xE0; con il GDPR.</p>
+			<h2 class="mume-header" id="varie"><strong>VARIE</strong></h2>
+
+			<h3 class="mume-header" id="minori"><strong>MINORI</strong></h3>
+
+			<p>Riteniamo che sia responsabilit&#xE0; dei genitori monitorare l&apos;utilizzo dei nostri prodotti e servizi da
+				parte dei propri figli. Ciononostante, &#xE8; nostra prassi non richiedere dati personali a minori o offrire
+				l&apos;invio di materiale promozionale a persone appartenenti a tale categoria.</p>
+			<p>FIMI non richiede n&#xE9; intende ricevere informazioni personali da minori. Se un genitore o tutore ha motivo di
+				credere che un minore abbia fornito a FIMI informazioni personali senza il suo previo consenso, deve contattarci
+				per richiedere la rimozione di dati personali del minore e la cancellazione dell&apos;iscrizione ai servizi FIMI
+				eventualmente eseguita.</p>
+			<p><strong>ORDINE DI PRECEDENZA</strong></p>
+			<p>Se l&apos;utente ha accettato i nostri contratti vigenti con l&apos;utente, in caso di incongruenza tra questi e
+				la presente Informativa sulla privacy, prevarranno i primi.</p>
+			<p><strong>AGGIORNAMENTI DELL&apos;INFORMATIVA SULLA PRIVACY</strong></p>
+			<p>Controlliamo regolarmente la nostra Informativa sulla privacy e possiamo aggiornarla per riflettere le modifiche
+				apportate alle nostre prassi di gestione delle informazioni. Se apportiamo modifiche sostanziali alla nostra
+				Informativa sulla privacy, informeremo l&apos;utente via e-mail (inviando la comunicazione all&apos;indirizzo
+				e-mail specificato nell&apos;account dell&apos;utente) o pubblicando le modifiche su tutti i siti Web FIMI o
+				attraverso il nostro software, in modo che l&apos;utente possa essere a conoscenza delle informazioni che
+				raccogliamo e del modo in cui le usiamo. Tali modifiche alla nostra Informativa sulla privacy si applicheranno a
+				partire dalla data di entrata in vigore indicata nella comunicazione o sul sito Web. Invitiamo l&apos;utente a
+				rivedere periodicamente questa pagina per avere informazioni aggiornate in merito alle nostre pratiche sulla
+				privacy. L&apos;uso continuativo di prodotti e servizi su siti Web, telefoni cellulari e/o qualsiasi altro
+				dispositivo sar&#xE0; considerato come l&apos;accettazione dell&apos;Informativa sulla privacy aggiornata.
+				Chiederemo un nuovo consenso dell&apos;utente prima di raccogliere ulteriori dati personali che lo riguardano o nel
+				caso in cui desideriamo utilizzare o divulgare tali dati personali per nuove finalit&#xE0;.</p>
+			<h2 class="mume-header" id="devo-accettare-termini-e-condizioni-di-terzi"><strong>DEVO ACCETTARE TERMINI E
+					CONDIZIONI DI TERZI?</strong></h2>
+
+			<p>La nostra Informativa sulla privacy non si applica a prodotti e servizi offerti da terzi. I prodotti e i servizi
+				FIMI potrebbero includere prodotti, servizi e link a siti web di terze parti. Durante l&apos;utilizzo di tali
+				prodotti o servizi potrebbero essere raccolti dati personali dell&apos;utente. Per questo motivo, consigliamo
+				vivamente di leggere l&apos;Informativa sulla privacy di terzi come fatto con la nostra. Non ci riteniamo
+				responsabili delle modalit&#xE0; con le quali le terze parti usino o controllino i dati personali che raccolgono
+				dall&apos;utente. La nostra Informativa sulla privacy non si applica ad altri siti collegati dai nostri servizi.</p>
+			<p>Di seguito sono riportati termini e informative sulla privacy di terze parti che si applicano all&apos;utilizzo
+				di tali prodotti specifici:</p>
+			<ul>
+				<li>Quando accedi con Twitter, accetti i termini di Twitter:<a href="https://twitter.com/en/privacy" target="_top"> https://twitter.com/en/privacy</a></li>
+				<li>Quando accedi con Facebook, accetti i termini di Facebook:<a href="https://www.facebook.com/privacy/explanation" target="_top"> 
+					https://www.facebook.com/privacy/explanation </a></li>
+			</ul>
+			<p><strong>SINGLE SIGN-ON</strong></p>
+			<p>A seconda della sua giurisdizione, l&apos;utente potrebbe essere in grado di accedere al nostro sito Web
+				utilizzando servizi di autenticazione come Facebook Connect o un fornitore di ID aperto. Questi servizi
+				autenticheranno l&apos;identit&#xE0; dell&apos;utente, daranno la possibilit&#xE0; di condividere con noi
+				determinati dati personali (come nome e indirizzo e-mail) e pre-compileranno il nostro modulo di registrazione.
+				Servizi come Facebook Connect danno all&apos;utente la possibilit&#xE0; di pubblicare dati sulle proprie
+				attivit&#xE0; su questo sito Web nella pagina del proprio profilo per condividerli con altri all&apos;interno della
+				propria rete.</p>
+			<h2 class="mume-header" id="il-nostro-approccio-alla-gestione-delle-informazioni-personali-dell39utente-ai-sensi-del-gdpr"><strong>IL
+					NOSTRO</strong> APPROCCIO ALLA GESTIONE DELLE INFORMAZIONI PERSONALI DELL&apos;UTENTE AI SENSI DEL GDPR</h2>
+
+			<p>Se l&apos;utente proviene dall&apos;Unione Europea ed &#xE8; sottoposto al GDPR, FIMI fornir&#xE0; un approccio
+				sistematico alla gestione delle informazioni personali che coinvolge radicalmente il nostro personale, i processi
+				di gestione e i sistemi di informazione tramite l&apos;applicazione di una metodologia di gestione dei rischi. In
+				conformit&#xE0; con il GDPR, ad esempio, (1) FIMI nomina un Responsabile per la protezione dei dati (DPO)
+				incaricato della protezione dei dati e il contatto del DPO &#xE8; moweiru@fimi.com;
+				(2) FIMI nomina un rappresentante in Europa e il contatto del rappresentante representative@fimi.com</a> (3) procedure come
+				la valutazione d&apos;impatto sulla protezione dei dati (DPIA).</p>
+			<p><strong>CONTATTI</strong></p>
+			<p>In caso di commenti o domande in merito alla presente Informativa sulla privacy o per qualsiasi domanda relativa
+				alla raccolta, all&apos;utilizzo o alla divulgazione delle informazioni personali dell&apos;utente da parte di
+				FIMI, &#xE8; possibile contattarci all&apos;indirizzo seguente indicando come oggetto &quot;Privacy Policy&quot; o
+				&quot;Informativa sulla privacy&quot;:</p>
+			<p>Beijing FIMI Technology Co., LTD.</p>
+			<p>348, Floor 3, Complex Building A1, Qinghe Yongtai Garden, Haidian District, Beijing.</p>
+			<p>E-mail: privacy@fimi.com</p>
+			<p>Grazie di aver dedicato del tempo alla comprensione della nostra Informativa sulla privacy.</p>
+
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+	</body>
+</html>

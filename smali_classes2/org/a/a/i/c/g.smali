@@ -1,0 +1,108 @@
+.class public Lorg/a/a/i/c/g;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Lorg/a/a/j/b;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lorg/a/a/j/b",
+        "<",
+        "Lorg/apache/http/HttpResponse;",
+        ">;"
+    }
+.end annotation
+
+.annotation build Lorg/a/a/a/b;
+.end annotation
+
+
+# static fields
+.field public static final a:Lorg/a/a/i/c/g;
+
+
+# instance fields
+.field private final b:Lorg/apache/http/message/LineParser;
+
+.field private final c:Lorg/apache/http/HttpResponseFactory;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Lorg/a/a/i/c/g;
+
+    invoke-direct {v0}, Lorg/a/a/i/c/g;-><init>()V
+
+    sput-object v0, Lorg/a/a/i/c/g;->a:Lorg/a/a/i/c/g;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 1
+
+    const/4 v0, 0x0
+
+    invoke-direct {p0, v0, v0}, Lorg/a/a/i/c/g;-><init>(Lorg/apache/http/message/LineParser;Lorg/apache/http/HttpResponseFactory;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Lorg/apache/http/HttpResponseFactory;)V
+    .locals 1
+
+    const/4 v0, 0x0
+
+    invoke-direct {p0, v0, p1}, Lorg/a/a/i/c/g;-><init>(Lorg/apache/http/message/LineParser;Lorg/apache/http/HttpResponseFactory;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Lorg/apache/http/message/LineParser;Lorg/apache/http/HttpResponseFactory;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    if-eqz p1, :cond_0
+
+    :goto_0
+    iput-object p1, p0, Lorg/a/a/i/c/g;->b:Lorg/apache/http/message/LineParser;
+
+    if-eqz p2, :cond_1
+
+    :goto_1
+    iput-object p2, p0, Lorg/a/a/i/c/g;->c:Lorg/apache/http/HttpResponseFactory;
+
+    return-void
+
+    :cond_0
+    sget-object p1, Lorg/a/a/k/d;->b:Lorg/a/a/k/d;
+
+    goto :goto_0
+
+    :cond_1
+    sget-object p2, Lorg/a/a/i/i;->a:Lorg/a/a/i/i;
+
+    goto :goto_1
+.end method
+
+
+# virtual methods
+.method public a(Lorg/apache/http/io/SessionInputBuffer;Lorg/a/a/e/c;)Lorg/apache/http/io/HttpMessageParser;
+    .locals 3
+
+    new-instance v0, Lorg/a/a/i/c/f;
+
+    iget-object v1, p0, Lorg/a/a/i/c/g;->b:Lorg/apache/http/message/LineParser;
+
+    iget-object v2, p0, Lorg/a/a/i/c/g;->c:Lorg/apache/http/HttpResponseFactory;
+
+    invoke-direct {v0, p1, v1, v2, p2}, Lorg/a/a/i/c/f;-><init>(Lorg/apache/http/io/SessionInputBuffer;Lorg/apache/http/message/LineParser;Lorg/apache/http/HttpResponseFactory;Lorg/a/a/e/c;)V
+
+    return-object v0
+.end method

@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* 通用样式表 */
+/* 标签样式 */
+*{padding:0px; margin:0px;}
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{word-wrap:break-word}
+table{border-collapse:collapse;border-spacing:0;}
+img{border:none}
+pre {white-space: pre-wrap; /* css-3 */white-space: -moz-pre-wrap; /* Mozilla, since 1999 */white-space: -pre-wrap; /* Opera 4-6 */white-space: -o-pre-wrap; /* Opera 7 */	word-wrap: break-word; /* Internet Explorer 5.5+ */}
+
+h1,h2,h3,h4,h5,h6,p{font-size:100%; margin:0px;}
+h1{font-size:34px;}
+h2{font-size:26px;}
+h3{font-size:18px;}
+h4{font-size:16px;}
+h5{font-size:14px;}
+h6{font-size:12px;}
+input,label,img,th{vertical-align:middle;}
+address,cite,dfn,em,var{font-style:normal;}
+code,kbd,pre,samp{font-family:courier new,courier,monospace;}
+select optgroup{color:#CAC8BB;}
+input.button ,input.btn{padding:0.25em;width: auto;_width:0;overflow:visible !ie;}
+input.dialog{height:0; _height:0; font-size:0; line-height:0; border:none}
+ul,ol,li{list-style:none;}
+a{text-decoration:none;}
+a:hover{text-decoration:underline; }
+
+/* 颜色定义 */
+.white,.white a{color:#fff}
+.blue,.blue a{color:#004499}
+.gray4,a.gray4{color:#999}
+.red, .red a, a.red{color:red;}
+.green{color:#0E774A}
+/* 隐藏 */
+.hidden{display:none;}
+.invisible{visibility:hidden;}
+/* 内联块 */
+.ib,.ib-a a{display:inline-block;zoom:1;*display:inline;}
+/* 清除浮动 */
+.clear:after,.main:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clear,.main{display:inline-block;}
+/* Hides from IE-mac \*/
+* html .clear,* html .main{height:1%;}
+.clear,.main{display:block;}
+
+/* 手势 */
+.cu,.cu-li li,.cu-span span {cursor: hand;!important;cursor: pointer}
+/* 文本对齐 */
+.text-c{text-align: center}
+.text-l{text-align: left}
+.text-r{text-align: right}
+/* 浮动 */
+.lf{float: left}
+.rt{float: right}
+.col-auto{overflow:hidden;_zoom:1;_float:left;}
+/* 定位 */
+.pr{ position:relative}
+.pa{ position:absolute}
+.pf{ position:fixed}
+
+
+
+/* 清除浮动 */
+.clear{ clear:both;}
+
+/* 隐藏/显示 */
+.dn{display: none; }
+.di{display: inline;}
+
+a:hover{ text-decoration:none;}
+
+
+/*** 修改滚动条样式 ***/
+::-webkit-scrollbar {
+width: 0.01rem;
+} /* 这是针对缺省样式 (必须的) */
+
+::-webkit-scrollbar-track {
+background-color: #e4ecff;
+} /* 滚动条的滑轨背景颜色 */
+
+::-webkit-scrollbar-thumb {
+background-color: rgba(0, 0, 0, 0.2);
+} /* 滑块颜色 */
+
+::-webkit-scrollbar-button {
+background-color: #d2ddf5;
+} /* 滑轨两头的监听按钮颜色 */
+
+::-webkit-scrollbar-corner {
+background-color: black;
+} /* 横向滚动条和纵向滚动条相交处尖角的颜*/
+
+
+body {
+    line-height: 24px;
+    font: 14px Helvetica Neue,Helvetica,PingFang SC,\5FAE\8F6F\96C5\9ED1,Tahoma,Arial,sans-serif;
+}

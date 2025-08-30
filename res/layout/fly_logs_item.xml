@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/list_setting_selector" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="52.299988dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="17.599976dip" android:layout_marginRight="17.599976dip">
+        <TextView android:textSize="14.0sp" android:textColor="#e5ffffff" android:id="@id/log_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="23:34" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="14.0sp" android:textColor="#e5ffffff" android:id="@id/log_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.599976dip" android:text="12M" android:layout_toRightOf="@id/log_name" android:layout_centerVertical="true" />
+        <TextView android:textSize="12.0sp" android:textColor="#7dffffff" android:id="@id/upload_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.599976dip" android:text="@string/wait_upload" android:layout_toLeftOf="@id/upload_layout" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/head_arrow" android:background="@drawable/setting_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <RelativeLayout android:id="@id/upload_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <com.fimi.soul.view.ImageLoadingView android:id="@id/upload_icon" android:background="@drawable/setting_btn_upload_selector" android:layout_width="29.0dip" android:layout_height="29.0dip" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/upload_v" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_upload_start" />
+        </RelativeLayout>
+        <ImageView android:id="@id/select_icon" android:background="@drawable/video_select_btn_select" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <ImageView android:background="#ff4a4a4a" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_marginLeft="17.599976dip" android:layout_marginRight="17.599976dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

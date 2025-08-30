@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ff1f1f21" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/index_layout" android:background="@drawable/pair_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="45.299988dip" android:layout_centerHorizontal="true">
+        <RelativeLayout android:layout_width="80.0dip" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:textSize="28.599976sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/pair_index" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:layout_centerInParent="true" />
+            <TextView android:textSize="15.299988sp" android:textColor="@color/white" android:id="@id/index_pin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/percent_pin" android:layout_toRightOf="@id/pair_index" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <TextView android:textSize="16.599976sp" android:textColor="#ccffffff" android:id="@id/connect_des_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" android:text="@string/pairt_progress" android:layout_below="@id/index_layout" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="13.0sp" android:textColor="#4cffffff" android:id="@id/connect_des" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/pairt_progress_des" android:layout_below="@id/connect_des_tip" android:layout_centerHorizontal="true" />
+    <com.fimi.kernel.view.progress.ProgressView android:id="@id/progress_v" android:background="#33ffffff" android:layout_width="258.29688dip" android:layout_height="2.0dip" android:layout_marginBottom="60.599976dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/bg_ev" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="40.0dip">
+        <TextView android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/ev_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="@string/ev_value" />
+        <com.fimi.soul.view.EVview android:id="@id/ev_v" android:layout_width="318.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" />
+        <com.fimi.soul.view.LightView android:id="@id/light_v" android:layout_width="318.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/blightness_ev_rl" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/progress_text_tile_size" android:textColor="@color/front_light_info_text_color" android:gravity="center" android:id="@id/info_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/progress_text_tile_size" android:textColor="@color/front_light_info_text_color" android:gravity="center" android:id="@id/info_ev_tv" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+        <com.fimi.soul.view.marknumberprogress.NumberMarkProgressBar android:id="@id/light_markbar" android:layout_width="344.0dip" android:layout_height="25.0dip" android:layout_below="@id/info_tv" android:layout_centerVertical="true" />
+        <com.fimi.soul.view.marknumberprogress.EvProgressBar android:id="@id/mEvProgressBar" android:background="@drawable/blightness_ev_bg1" android:visibility="gone" android:layout_width="270.0dip" android:layout_height="30.0dip" android:layout_below="@id/info_tv" />
+        <TextView android:textSize="@dimen/progress_text_info_size" android:textColor="@color/front_light_info_text_color" android:gravity="center" android:id="@id/model_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/front_lights_setting_app_enable_tip" android:layout_below="@id/light_markbar" android:layout_centerHorizontal="true" />
+        <View android:id="@id/divide_line" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="1.0dip" android:layout_marginBottom="8.0dip" android:layout_below="@id/light_markbar" />
+    </RelativeLayout>
+</LinearLayout>

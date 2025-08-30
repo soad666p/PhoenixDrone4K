@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/iv_thumbnail" android:background="@drawable/friends_sends_pictures_no" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/iv_flleType" android:background="@drawable/video_icon" android:visibility="gone" android:layout_width="13.0dip" android:layout_height="9.0dip" android:layout_marginLeft="5.0dip" android:layout_marginBottom="5.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    <com.fimi.soul.view.StrokeDigitalView android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/tv_duration" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_marginBottom="2.0dip" android:text="0:12" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <View android:id="@id/v_blackMask" android:background="#000000a5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/iv_downloading_mask" android:background="#78000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.fimi.soul.view.MediaImageLoadingView android:id="@id/iv_downloadprogress" android:visibility="gone" android:layout_width="29.0dip" android:layout_height="29.0dip" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/iv_downloadStatus" android:visibility="gone" android:layout_width="29.0dip" android:layout_height="29.0dip" android:layout_centerInParent="true" />
+    <com.fimi.soul.view.StrokeTextView android:textSize="9.0sp" android:textColor="@color/white" android:id="@id/tv_is_down" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginBottom="4.0dip" android:layout_toRightOf="@id/iv_flleType" android:layout_alignParentBottom="true" />
+    <ImageView android:background="@drawable/image_click_selector" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="10.0sp" android:textColor="#ccffffff" android:id="@id/tv_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:text="12%" android:layout_below="@id/iv_downloadStatus" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/mask_iv" android:background="#a6000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/iv_selected" android:background="@drawable/select_on" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/rl" android:background="@drawable/list_setting_selector" android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0dip" android:textColor="#e6ffffff" android:id="@id/title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="23.0dip" android:layout_marginTop="15.0dip" />
+    <ImageView android:id="@id/setting_more_iv" android:background="@drawable/setting_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="29.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="12.0sp" android:textColor="#80ffffff" android:id="@id/time_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_toLeftOf="@id/setting_more_iv" android:layout_centerVertical="true" />
+    <TextView android:textSize="12.0dip" android:textColor="#80ffffff" android:ellipsize="end" android:gravity="left" android:id="@id/message_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="23.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="120.0dip" android:maxLines="1" android:layout_below="@id/title_tv" />
+</RelativeLayout>

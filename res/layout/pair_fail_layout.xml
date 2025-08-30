@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/pair_fail" android:background="#ff1f1f21" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/fail_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="41.299988dip" android:src="@drawable/icon_calibration_defeat" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="16.599976sp" android:textColor="#ccffffff" android:id="@id/pair_fail_rt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.599976dip" android:text="@string/pair_fail" android:layout_below="@id/fail_icon" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="12.0sp" android:textColor="#77ffffff" android:id="@id/pair_rt_tip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/pair_fail_tip" android:layout_below="@id/pair_fail_rt" android:layout_centerHorizontal="true" />
+    <LinearLayout android:gravity="center" android:layout_width="256.59375dip" android:layout_height="40.0dip" android:layout_marginBottom="26.599976dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <Button android:textSize="13.299988sp" android:textColor="#e1ffffff" android:gravity="center" android:id="@id/exit_btn" android:background="@drawable/btn_left_choose" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/exit" android:layout_weight="1.0" />
+        <Button android:textSize="13.299988sp" android:textColor="#e1ffffff" android:gravity="center" android:id="@id/repair_btn" android:background="@drawable/btn_right_choose" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/repair" android:layout_weight="1.0" android:layout_toRightOf="@id/noconnect_bt" />
+    </LinearLayout>
+</RelativeLayout>

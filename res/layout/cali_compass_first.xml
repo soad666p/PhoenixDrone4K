@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fimi.kernel.view.percent.PercentRelativeLayout android:background="#ff202020" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/remoterirle" android:textColor="@color/white" android:id="@id/showtitleone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/descompassbegin" android:layout_below="@id/heardView" android:layout_centerHorizontal="true" android:alpha="0.8" app:layout_marginTopPercent="5.5%h" />
+    <ImageView android:gravity="center" android:id="@id/calicompassic" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/calibration_compass_level" android:layout_below="@id/showtitleone" android:layout_centerInParent="true" />
+    <Button android:textSize="@dimen/remotcalinext" android:textColor="@color/white" android:gravity="center" android:id="@id/beginCali" android:background="@drawable/remotenext" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:text="@string/begincalibration" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:layout_widthPercent="23.75%w" app:layout_heightPercent="10.370%h" app:layout_marginBottomPercent="6.4814%h" />
+</com.fimi.kernel.view.percent.PercentRelativeLayout>

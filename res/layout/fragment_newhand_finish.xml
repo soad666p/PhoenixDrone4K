@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fimi.kernel.view.percent.PercentRelativeLayout android:background="@drawable/calibration_newbie_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/okay_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/newbie_finish_icon" android:layout_centerHorizontal="true" app:layout_marginTopPercent="17.2%h" />
+    <TextView android:textSize="23.0sp" android:textColor="#ffffffff" android:id="@id/tv_finish" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/new_hand_finish" android:layout_below="@id/okay_icon" android:layout_centerHorizontal="true" app:layout_marginTopPercent="6.1%h" />
+    <TextView android:textSize="19.0sp" android:textColor="#93ffffff" android:id="@id/tv_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/new_hand_isfinish" android:layout_below="@id/tv_finish" android:layout_centerHorizontal="true" app:layout_marginTopPercent="2.5%h" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="270.66406dip" android:layout_centerHorizontal="true">
+        <Button android:id="@id/btn_study_again" android:background="@drawable/btn_left_choose" android:text="@string/study_again" style="@style/btn_choose_left_style" />
+        <Button android:id="@id/btn_try_fly" android:background="@drawable/btn_right_choose" android:text="@string/try_fly" style="@style/btn_choose_right_style" />
+    </LinearLayout>
+</com.fimi.kernel.view.percent.PercentRelativeLayout>

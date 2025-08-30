@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout style="@style/CameraSettingOptionLayout">
+        <TextView android:id="@id/tv_settingTitle" android:text="@string/camera_Lens_AC" style="@style/CameraSettingLeftTitle" />
+        <com.fimi.kernel.view.button.SwitchButton android:id="@id/sb_settingAction" android:layout_width="@dimen/camera_setting_switch_button_width" android:layout_height="30.0dip" android:layout_marginRight="@dimen/camra_setting_margin_left_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View style="@style/CameraSettingLine" />
+</LinearLayout>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="hlv_absHListViewStyle" format="reference" />
+    <attr name="hlv_expandableListViewStyle" format="reference" />
+    <attr name="hlv_listPreferredItemWidth" format="dimension" />
+    <attr name="hlv_listViewStyle" format="reference" />
+    <attr name="hlv_stackFromRight" format="boolean" />
+    <attr name="hlv_transcriptMode">
+        <enum name="alwaysScroll" value="2" />
+        <enum name="disabled" value="0" />
+        <enum name="normal" value="1" />
+    </attr>
+    <attr name="border_width" format="dimension" />
+    <attr name="border_color" format="color" />
+    <attr name="hlv_indicatorGravity">
+        <flag name="bottom" value="0x00000050" />
+        <flag name="center" value="0x00000011" />
+        <flag name="center_horizontal" value="0x00000001" />
+        <flag name="center_vertical" value="0x00000010" />
+        <flag name="clip_horizontal" value="0x00000008" />
+        <flag name="clip_vertical" value="0x00000080" />
+        <flag name="end" value="0x00800005" />
+        <flag name="fill" value="0x00000077" />
+        <flag name="fill_horizontal" value="0x00000007" />
+        <flag name="fill_vertical" value="0x00000070" />
+        <flag name="left" value="0x00000003" />
+        <flag name="right" value="0x00000005" />
+        <flag name="start" value="0x00800003" />
+        <flag name="top" value="0x00000030" />
+    </attr>
+    <attr name="hlv_childIndicatorGravity">
+        <flag name="bottom" value="0x00000050" />
+        <flag name="center" value="0x00000011" />
+        <flag name="center_horizontal" value="0x00000001" />
+        <flag name="center_vertical" value="0x00000010" />
+        <flag name="clip_horizontal" value="0x00000008" />
+        <flag name="clip_vertical" value="0x00000080" />
+        <flag name="end" value="0x00800005" />
+        <flag name="fill" value="0x00000077" />
+        <flag name="fill_horizontal" value="0x00000007" />
+        <flag name="fill_vertical" value="0x00000070" />
+        <flag name="left" value="0x00000003" />
+        <flag name="right" value="0x00000005" />
+        <flag name="start" value="0x00800003" />
+        <flag name="top" value="0x00000030" />
+    </attr>
+    <attr name="hlv_childDivider" format="reference|color" />
+    <attr name="hlv_groupIndicator" format="reference" />
+    <attr name="hlv_childIndicator" format="reference" />
+    <attr name="hlv_indicatorPaddingLeft" format="dimension" />
+    <attr name="hlv_indicatorPaddingTop" format="dimension" />
+    <attr name="hlv_childIndicatorPaddingLeft" format="dimension" />
+    <attr name="hlv_childIndicatorPaddingTop" format="dimension" />
+    <attr name="percentage" format="float" />
+    <attr name="fadeDuration" format="integer" />
+    <attr name="viewAspectRatio" format="float" />
+    <attr name="placeholderImage" format="reference" />
+    <attr name="placeholderImageScaleType">
+        <enum name="center" value="4" />
+        <enum name="centerCrop" value="6" />
+        <enum name="centerInside" value="5" />
+        <enum name="fitCenter" value="2" />
+        <enum name="fitEnd" value="3" />
+        <enum name="fitStart" value="1" />
+        <enum name="fitXY" value="0" />
+        <enum name="focusCrop" value="7" />
+        <enum name="none" value="-1" />
+    </attr>
+    <attr name="retryImage" format="reference" />
+    <attr name="retryImageScaleType">
+        <enum name="center" value="4" />
+        <enum name="centerCrop" value="6" />
+        <enum name="centerInside" value="5" />
+        <enum name="fitCenter" value="2" />
+        <enum name="fitEnd" value="3" />
+        <enum name="fitStart" value="1" />
+        <enum name="fitXY" value="0" />
+        <enum name="focusCrop" value="7" />
+        <enum name="none" value="-1" />
+    </attr>
+    <attr name="failureImage" format="reference" />
+    <attr name="failureImageScaleType">
+        <enum name="center" value="4" />
+        <enum name="centerCrop" value="6" />
+        <enum name="centerInside" value="5" />
+        <enum name="fitCenter" value="2" />
+        <enum name="fitEnd" value="3" />
+        <enum name="fitStart" value="1" />
+        <enum name="fitXY" value="0" />
+        <enum name="focusCrop" value="7" />
+        <enum name="none" value="-1" />
+    </attr>
+    <attr name="progressBarImage" format="reference" />
+    <attr name="progressBarImageScaleType">
+        <enum name="center" value="4" />
+        <enum name="centerCrop" value="6" />
+        <enum name="centerInside" value="5" />
+        <enum name="fitCenter" value="2" />
+        <enum name="fitEnd" value="3" />
+        <enum name="fitStart" value="1" />
+        <enum name="fitXY" value="0" />
+        <enum name="focusCrop" value="7" />
+        <enum name="none" value="-1" />
+    </attr>
+    <attr name="progressBarAutoRotateInterval" format="integer" />
+    <attr name="actualImageScaleType">
+        <enum name="center" value="4" />
+        <enum name="centerCrop" value="6" />
+        <enum name="centerInside" value="5" />
+        <enum name="fitCenter" value="2" />
+        <enum name="fitEnd" value="3" />
+        <enum name="fitStart" value="1" />
+        <enum name="fitXY" value="0" />
+        <enum name="focusCrop" value="7" />
+        <enum name="none" value="-1" />
+    </attr>
+    <attr name="backgroundImage" format="reference" />
+    <attr name="overlayImage" format="reference" />
+    <attr name="pressedStateOverlayImage" format="reference" />
+    <attr name="roundAsCircle" format="boolean" />
+    <attr name="roundedCornerRadius" format="dimension" />
+    <attr name="roundTopLeft" format="boolean" />
+    <attr name="roundTopRight" format="boolean" />
+    <attr name="roundBottomRight" format="boolean" />
+    <attr name="roundBottomLeft" format="boolean" />
+    <attr name="roundWithOverlayColor" format="color" />
+    <attr name="roundingBorderWidth" format="dimension" />
+    <attr name="roundingBorderColor" format="color" />
+    <attr name="hlv_dividerWidth" format="dimension" />
+    <attr name="hlv_headerDividersEnabled" format="boolean" />
+    <attr name="hlv_footerDividersEnabled" format="boolean" />
+    <attr name="hlv_overScrollHeader" format="reference|color" />
+    <attr name="hlv_overScrollFooter" format="reference|color" />
+    <attr name="hlv_measureWithChild" format="integer" />
+    <attr name="dividerWidth" format="dimension" />
+    <attr name="layout_widthPercent" format="string" />
+    <attr name="layout_heightPercent" format="string" />
+    <attr name="layout_marginPercent" format="string" />
+    <attr name="layout_marginLeftPercent" format="string" />
+    <attr name="layout_marginTopPercent" format="string" />
+    <attr name="layout_marginRightPercent" format="string" />
+    <attr name="layout_marginBottomPercent" format="string" />
+    <attr name="layout_marginStartPercent" format="string" />
+    <attr name="layout_marginEndPercent" format="string" />
+    <attr name="layout_textSizePercent" format="string" />
+    <attr name="layout_maxWidthPercent" format="string" />
+    <attr name="layout_maxHeightPercent" format="string" />
+    <attr name="layout_minWidthPercent" format="string" />
+    <attr name="layout_minHeightPercent" format="string" />
+    <attr name="layout_paddingPercent" format="string" />
+    <attr name="layout_paddingTopPercent" format="string" />
+    <attr name="layout_paddingBottomPercent" format="string" />
+    <attr name="layout_paddingLeftPercent" format="string" />
+    <attr name="layout_paddingRightPercent" format="string" />
+    <attr name="ProgressBar_progressDrawable" format="reference" />
+    <attr name="ProgressBar_indeterminateDuration" format="integer" />
+    <attr name="ProgressBar_indeterminateBehavior" format="integer" />
+    <attr name="ProgressBar_secondaryProgress" format="integer" />
+    <attr name="ProgressBar_indeterminateDrawable" format="reference" />
+    <attr name="ProgressBar_indeterminateOnly" format="boolean" />
+    <attr name="ProgressBar_indeterminate" format="boolean" />
+    <attr name="title" format="string" />
+    <attr name="unit" format="string" />
+    <attr name="formatString" format="string" />
+    <attr name="min" format="float" />
+    <attr name="inc" format="float" />
+    <attr name="max" format="float" />
+    <attr name="isSelectable" format="reference|boolean" />
+    <attr name="borderWidth" format="dimension" />
+    <attr name="offBorderColor" format="reference|color" />
+    <attr name="offColor" format="reference|color" />
+    <attr name="onColor" format="reference|color" />
+    <attr name="spotColor" format="reference|color" />
+    <attr name="animate" format="reference|boolean" />
+    <attr name="onSpotColor" format="reference|boolean" />
+    <attr name="vpiTabPageIndicatorStyle" format="reference" />
+    <attr name="viewtype" format="integer" />
+</resources>

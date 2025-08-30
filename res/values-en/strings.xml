@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Language Identifier -->
+    <string name="language_identifier">English</string>
+    
+    <!-- App Basic Info -->
+    <string name="app_name">Mi Drone</string>
+    <string name="about_version">Mi Drone %s</string>
+    
+    <!-- Error Messages and Reports -->
+    <string name="AP_RPT_ACCEL_ERR">Accelerometer error, please restart aircraft</string>
+    <string name="AP_RPT_APP_UNCONNECT">Please connect the App before flying</string>
+    <string name="AP_RPT_ATTITUDE">Aircraft in a unstable environment</string>
+    <string name="AP_RPT_ATT_OVERFLOW">Persistent Anomaly</string>
+    <string name="AP_RPT_BARO_ERR">Barometer error, please restart aircraft</string>
+    <string name="AP_RPT_CYRO_ERROR">Gyroscope error, please restart aircraft</string>
+    <string name="AP_RPT_Compass_Err">Compass error, please restart the aircraft</string>
+    <string name="AP_RPT_DATA_INVALID">Data error, please update No Fly Zone</string>
+    <string name="AP_RPT_ERR_PILOT_MODE">Cannot use the function under current mode</string>
+    <string name="AP_RPT_GEO_FENCE">Over flight limits</string>
+    <string name="AP_RPT_GPS_ERR">GPS error, please restart aircraft</string>
+    <string name="AP_RPT_HAS_TAKEN_OFF">Cannot execute during flight</string>
+    <string name="AP_RPT_Home_Not_Set">Failed to set home point, cannot execute</string>
+    <string name="AP_RPT_INVALID_CMD">Sorry, command cannot be executed</string>
+    <string name="AP_RPT_Is_LANDING">Aircraft landing, cannot execute</string>
+    <string name="AP_RPT_LOGIC_ERROR">Commands too frequently, cannot execute</string>
+    <string name="AP_RPT_LOG_START_FAILED">System initialization error, please restart the aircraft</string>
+    <string name="AP_RPT_MODE_TRANS_REJECT">Switching is not supported under current mode</string>
+    <string name="AP_RPT_MOTOR_LOCK">Motor is locked, please check motor</string>
+    <string name="AP_RPT_NEED_NEW_COOR">Failed to set waypoint, it is recommended to reset</string>
+    <string name="AP_RPT_NON_AUTO_MODE">Aircraft in attitude mode, positioning unavailable</string>
+    <string name="AP_RPT_NOT_IN_AP_MODE">Not in auto flight mode</string>
+    <string name="AP_RPT_NO_FLY_ZONE">Flight is not allowed in No Fly Zone</string>
+    <string name="AP_RPT_NO_WAY_POINT">Waypoints abnormal, it is recommended to rearrange waypoints</string>
+    <string name="AP_RPT_ON_Calibration">System in calibration, please wait</string>
+    <string name="AP_RPT_PARA_ERR">Parameters error, please retry</string>
+    <string name="AP_RPT_PHASE_LANDING">Aircraft landing</string>
+    <string name="AP_RPT_PHASE_TAKE_OFF">Aircraft taking off</string>
+    <string name="AP_RPT_RC_LOST">Please connect RC before flying</string>
+    <string name="AP_RPT_RTH_ING">Aircraft is returning to Home</string>
+    <string name="AP_RPT_RTH_KEY_SET">Auto RTH ON, please move the key to the left</string>
+    <string name="AP_RPT_STICKY_NEUTRAL">RC requires calibration</string>
+    <string name="AP_RPT_Vpu">Aircraft in VPU mode, positioning unavailable</string>
+    <string name="AT_RPT_LOGIC">Aircraft updating, please wait</string>
+    <string name="AT_RPT_STICK_NEUTAL">Aircraft taking off automatically, please do not move stick</string>
+    
+    <!-- Gimbal Calibration Messages -->
+    <string name="GC_caliFail_discon">Please connect to RC before calibration</string>
+    <string name="GC_caliFail_discon_drone">Please connect to aircraft before calibration</string>
+    <string name="GC_caliSucess">Calibration Success</string>
+    <string name="GC_calibrationing">Gimbal in auto calibration, please wait</string>
+    <string name="GC_califail">Calibration Failed</string>
+    <string name="GC_hight_Vibrator">Gimbal vibrating seriously</string>
+    <string name="GC_hight_temperature">Gimbal overheated, unable to calibrate</string>
+    <string name="GC_horLine_uneven">Gimbal is not placed horizontally</string>
+    <string name="GC_low_temperature">The temperature of gimbal is too low, please preheat for calibration</string>
+    <string name="GC_temperature_low_accuracy">The temperature fluctuation of gimbal is large, please calibrate later</string>
+    <string name="GC_tune_fail">Adjustment Failed</string>
+    <string name="GC_wrong_angle">The angle of gimbal is not correct</string>
+    
+    <!-- Status Messages -->
+    <string name="LOW_POWER">Low battery of aircraft, please land immediately</string>
+    <string name="Not_IN_AIR">Please take off the aircraft</string>
+    <string name="SSID">SSID</string>
+    
+    <!-- App Interface -->
+    <string name="about">Version Info</string>
+    <string name="about_left_stick">Left Stick</string>
+    <string name="about_mark">Rate Us</string>
+    <string name="about_motor">Start drone</string>
+    <string name="about_right_stick">Right Stick</string>
+    <string name="accept">Accept</string>
+    <string name="account">Account</string>
+    <string name="actionpause">Pause</string>
+    <string name="actionresume">Continue</string>
+    <string name="adjust_flight_height_value">RTH altitude should be no more than %1$d%2$s, current RTH altitude modified</string>
+    <string name="after_upgrade">Later</string>
+    <string name="after_upgrade_down">Download Later</string>
+    <string name="again_exit">Tap again to exit</string>
+    <string name="aggree_milletr">Login means you agree </string>
+    <string name="agreement_privacy">TOS</string>
+    <string name="agreement_shengming">Disclaimer</string>
+    <string name="agreement_yu"> and </string>
+    <string name="all_capacity">Capacity:</string>
+    <string name="angle_limit">Angle Limit</string>
+    <string name="anticlockwise_angle">C.C.W</string>
+    <string name="apk_downing">APK Downloading</string>
+    <string name="app">App</string>
+    <string name="arrowkey_horzontal_operation">Pan Stick Opposite</string>
+    <string name="arrowkey_vertial_operation">Tilt Stick Opposite</string>
+    <string name="ask_exception">Cannot load flight record, please try later</string>
+    <string name="assist_the_location_mode_to_open_please_be_careful_to_fly">"Turning on VPU mode, please read below contents carefully:
+ 1.For safety reason, please fly in open area with clear ground texture and brightness > 15Lx. Altitude limit: %1$s~%2$s.
+ 2.Skills and experience are required under ATTI mode for safe flight. Aircraft will auto switch to ATTI mode when VPU mode unavailable.
+ 3. Accident of indoor flight is not included in the insurance, please install the protection frame and fly carefully."</string>
+    <string name="attfling">In flight</string>
+    <string name="attibase">Could take off</string>
+    <string name="audio_title">Audio</string>
+    <string name="auto_chage_brightness">Lights auto turn off when shooting（Invalid under ATTI）</string>
+    <string name="auto_land">Land Automatically</string>
+    <string name="auto_save_image">Auto save to phone album</string>
+    <string name="autoreturnto">Auto RTH</string>
+    <string name="baibaoxiang">Shortcuts</string>
+    <string name="baibaoxiang_des">More interesting shortcuts here</string>
+    
+    <!-- Battery and Technical Info -->
+    <string name="battery">Battery</string>
+    <string name="battery_damage">Damaged</string>
+    <string name="battery_des">"If the battery of aircraft is lower than 30%, aircraft should return to Home"</string>
+    <string name="battery_electricity">Battery current:</string>
+    <string name="battery_endurance">Battery Life:</string>
+    <string name="battery_four">Battery 4</string>
+    <string name="battery_high_temperature">| High</string>
+    <string name="battery_info">Battery Info</string>
+    <string name="battery_life">Battery Life Span:</string>
+    <string name="battery_low_temperature">| Low</string>
+    <string name="battery_nomal_temperature">| normal</string>
+    <string name="battery_one">Battery 1</string>
+    <string name="battery_over_dischange">Undervoltage</string>
+    <string name="battery_pressure_highter">The difference of battery voltage is too large</string>
+    <string name="battery_remaining">Left</string>
+    <string name="battery_temperature">Battery temperature:</string>
+    <string name="battery_three">Battery 3</string>
+    <string name="battery_title">Battery of Aircraft</string>
+    <string name="battery_two">Battery 2</string>
+    <string name="battery_update_hint">"Please use the battery to 15%, then wait and let the battery self-discharge to 0, the capacity will be updated"</string>
+    <string name="battery_version">Battery:</string>
+    <string name="battery_voltage_four">Cell 4:</string>
+    <string name="battery_voltage_one">Cell 1:</string>
+    <string name="battery_voltage_sencond">Cell 2:</string>
+    <string name="battery_voltage_three">Cell 3:</string>
+    
+    <!-- Calibration -->
+    <string name="begincalibration">Start</string>
+    <string name="begincalocomremider">"Keep the landing gear open, do not hold the landing gear. Keep away from metal and high interference areas"</string>
+    <string name="cali_fail_please_connect_remote">Calibration failed, please connect to RC</string>
+    <string name="calibrate_remote">RC Calibration</string>
+    <string name="calibration_failure">Calibration failed, please calibrate again</string>
+    <string name="calibration_remote">RC Calibration</string>
+    <string name="calicompasscoming">Aircraft is in compass calibration, please restart the aircraft and try again.</string>
+    <string name="calicompassesucess">Compass Calibration Complete</string>
+    <string name="calicompasstitle">Calibrate Compass</string>
+    <string name="calicomsucess">Compass calibration complete, please wait, aircraft auto restarting</string>
+    <string name="calicpmssing">Aircraft is in compass calibration, please restart the aircraft</string>
+    <string name="calidisconremote">Please connect to RC before calibration</string>
+    <string name="calierror">Compass calibration time out, please follow the guide strictly to complete calibration</string>
+    <string name="calierrordata">Calibration failure, please be aware of interference of surrounding environments</string>
+    <string name="califail">Calibration Failed</string>
+    <string name="caligcremider">For safety reason, gimbal cannot be calibrated during the flight</string>
+    <string name="calireming">Calibrating RC...</string>
+    <string name="caliremotefail">Failed to calibrate RC</string>
+    <string name="caliremotesucess">RC Calibration Complete</string>
+    <string name="calirocker">Push or pull all sticks to their maximum range several times</string>
+    <string name="calirocker2">until the position of the stick is consistent with the actual position</string>
+    <string name="calirockertitle">Stick Calibration</string>
+    <string name="calisiacondrone">Please connect to aircraft before calibration</string>
+    <string name="calisucess">Calibration Success</string>
+    <string name="caliwhell">Dial Calibration</string>
+    <string name="calremotewaringfly">For safety reason, RC cannot be calibrated during the flight</string>
+    
+    <!-- Camera and Media -->
+    <string name="camera">Camera</string>
+    <string name="camera_Lens_AC">Lens Distortion Correction</string>
+    <string name="camera_connect_state_fail">Camera Connection Error</string>
+    <string name="camera_course">Camera Update Tutorial</string>
+    <string name="camera_disconnect">Camera error, unable to locate</string>
+    <string name="camera_disconnect_sky">Camera error, please land immediately</string>
+    <string name="camera_exception">Camera error</string>
+    <string name="camera_faile_tip">Camera firmware could also be updated manually, please click here to check tutorial</string>
+    <string name="camera_menu">Camera Menu</string>
+    <string name="camera_menu_contrast">Contrast</string>
+    <string name="camera_menu_defualt">Default</string>
+    <string name="camera_menu_ev">EV</string>
+    <string name="camera_menu_iso">ISO</string>
+    <string name="camera_menu_redefault">Default</string>
+    <string name="camera_menu_saturation">Saturation</string>
+    <string name="camera_menu_sharpan">Sharpen</string>
+    <string name="camera_menu_shutter">Shutter</string>
+    <string name="camera_menu_update_tip">Please update to latest Camera firmware</string>
+    <string name="camera_menu_whitebalance">White Balance</string>
+    <string name="camera_reset_factory_mode">Reset to factory settings</string>
+    <string name="camera_sd_format">Format TF Card</string>
+    <string name="camera_setting">Camera Settings</string>
+    <string name="camera_setting_resert">Reset</string>
+    <string name="camera_setting_resert_camera_setting">Reset all camera settings</string>
+    <string name="camera_setting_resert_camera_setting_dialog">Aure you sure to recover default settings?</string>
+    <string name="camera_show_lead_promat_close">Two fingers slide inward to exit full screen</string>
+    <string name="camera_show_lead_promat_open">Two fingers slide outward to show full screen</string>
+    <string name="camera_tab_ae">AE</string>
+    <string name="camera_tab_me">ME</string>
+    <string name="camera_tf_space_detail">Cannot update, TF card remaining capacity less than 80M</string>
+    <string name="camera_version">Camera : </string>
+    <string name="camera_video_quality">Video Quality</string>
+    <string name="camera_video_resolution">Video Resolution</string>
+    
+    <!-- Flight Controls -->
+    <string name="can_fly_by_hand">Can take off (ATTI)</string>
+    <string name="can_takeOff_ATTi">Could take off in attitude mode</string>
+    <string name="can_takeOff_GLOBAL">Could take off in GPS mode</string>
+    <string name="can_takeOff_Local">Could take off in VPU mode</string>
+    <string name="cancel">Cancel</string>
+    <string name="cancel_downing">Downloading firmware, click again to cancel download</string>
+    <string name="cancel_upgrade">Later</string>
+    <string name="cant_action_flyto">Cannot set Tap-fly under VPU mode or ATTI mode</string>
+    <string name="cant_action_interest">Cannot set Orbit under VPU mode or ATTI mode</string>
+    <string name="cant_action_tajephoto">Cannot set Dronie under VPU/ATTI mode</string>
+    <string name="cant_action_waypoint">Cannot set Waypoint under VPU mode or ATTI mode</string>
+    <string name="cant_fly_takePhoto_VPU">Currently under VPU mode, cannot execute Dronie mission</string>
+    <string name="cant_fly_takePhoto_atti">Currently under ATTI mode, cannot execute Dronie mission</string>
+    <string name="cant_setPoi">Failed to set POI</string>
+    <string name="capture_success">Captured Successfully</string>
+    
+    <!-- Common UI Elements -->
+    <string name="confirm">OK</string>
+    <string name="delete">Delete</string>
+    <string name="execute">Start</string>
+    <string name="exit">Exit</string>
+    <string name="finish">OK</string>
+    <string name="format">Format</string>
+    <string name="help">Help</string>
+    <string name="ok">OK</string>
+    <string name="save">Save</string>
+    <string name="settings">Settings</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    
+    <!-- Units and Measurements -->
+    <string name="degree_unit">°</string>
+    <string name="distance_unit_M">M</string>
+    <string name="distance_unit_ft">Ft</string>
+    <string name="distance_unit_m">m</string>
+    <string name="foot_unit">Ft</string>
+    <string name="meter">meter</string>
+    <string name="meters">meters</string>
+    
+    <!-- Firmware and Updates -->
+    <string name="down_firmwares_detail">Firmware size to be downloaded: %1$sM</string>
+    <string name="downing_media">Downloading %1$s</string>
+    <string name="download_file_phone">Download %1$s</string>
+    <string name="findupdate">New version %1$s found, update now?</string>
+    <string name="checkupdate">Check Update</string>
+    
+    <!-- Flight Data -->
+    <string name="fly_angle">Angle:   %1$s degree</string>
+    <string name="gimal_tune_para_tune_sensitivity">Gimbal sensitivity: %d</string>
+    <string name="guest_distance_value">Distance: %1$s</string>
+    <string name="has_select_num">%1$d selected</string>
+    
+    <!-- Media Management -->
+    <string name="ensure_delete_image">Are you sure to delete %1$s selected item(s)?</string>
+    
+    <!-- Cloud Services -->
+    <string name="cloud_upgrade_check_low_battery_alarm">Battery lower than 20%, please charge before update</string>
+    
+    <!-- Additional Flight Controls -->
+    <string name="flyto">Executing Tap-fly Mission</string>
+    <string name="interestFly">Executing Orbit Mission</string>
+    <string name="execuwaypoint">Executing Waypoint Mission</string>
+    <string name="followMe">Follow Me</string>
+    <string name="takeoff">Take Off</string>
+    <string name="landfall">Land</string>
+    <string name="gotohome">RTH</string>
+    <string name="comtakeoff">Auto Take Off complete</string>
+    <string name="comalding">Auto Landing complete</string>
+    <string name="comtohome">Auto RTH complete</string>
+    
+    <!-- GPS and Positioning -->
+    <string name="gps">GPS</string>
+    <string name="gps_mode">GPS Mode</string>
+    <string name="gps_atti">Switch between GPS/ATTI</string>
+    <string name="gps_des">"The GPS strength will directly influence the safety of aircraft. Please fly in less interfered environment"</string>
+    <string name="gpsfling">In flight</string>
+    <string name="gpsfly">Could take off</string>
+    
+    <!-- Gimbal Controls -->
+    <string name="gimbal">Gimbal</string>
+    <string name="gimbal_calibration">Gimbal Calibration</string>
+    <string name="gimbal_tune_parameter">Gimbal Adjustment</string>
+    <string name="gimbal_version">Gimbal : </string>
+    <string name="gc_calbrating_title">Calibrating Gimbal</string>
+    <string name="gc_calbrating_titling">Calibrating Gimbal...</string>
+    <string name="gc_calbration_tips">Please place the aircraft on a flat surface, do not move the aircraft during calibration process</string>
+    <string name="gc_fault">Gimbal Error</string>
+    <string name="gccalisucess">Gimbal Calibration Complete</string>
+    
+    <!-- IMU and Sensors -->
+    <string name="imu_detection">Check IMU</string>
+    <string name="imu_detection_retry">Failed to check IMU, please retry!</string>
+    <string name="imu_exception">Failed to check IMU</string>
+    <string name="imu_normal">IMU Normal!</string>
+    <string name="imu_accelerometer">Acclrm</string>
+    <string name="imu_gyroscope">Gyro</string>
+    <string name="imu_compass">Compass</string>
+    <string name="imu_compass_one">Compass A</string>
+    <string name="imu_compass_two">Compass B</string>
+    <string name="imu_mod">Mod</string>
+    <string name="imu_x">X</string>
+    <string name="imu_y">Y</string>
+    <string name="imu_z">Z</string>
+    
+    <!-- Flight Modes -->
+    <string name="forced_attitude_mode">ATTI Mode</string>
+    <string name="force_attiyude_mode_delcare">"Turning on ATTI mode, please read below contents carefully
+ 1.ATTI is only available to experienced users, VPU mode and GPS mode are OFF under ATTI.
+ 2.Under ATTI mode, the aircraft may drift, you need to manually control sticks to keep aircraft hover. There is a certain risk.
+ 3.The following function is disabled: Auto-take-off, Auto-land, Tap-fly, Waypoint, Orbit.
+ 4.Under ATTI mode, any incident caused by drone is not included in the drone insurance."</string>
+    
+    <!-- Error and Fault Messages -->
+    <string name="fault_accelerometer">Require accelerometer calibration</string>
+    <string name="fault_compass">Require compass calibration</string>
+    <string name="fault_gps">GPS unavailable, please use RC to land</string>
+    <string name="fault_gyroscope">Require gyroscope calibration</string>
+    <string name="fault_level">Require level calibration</string>
+    <string name="fault_camera">No Cam</string>
+    <string name="fault_gc">Gimbal Error</string>
+    <string name="fault_low_battery">Aircraft battery is too low, please turn off and charge</string>
+    <string name="fault_max_distance">Aircraft has reached max flight distance</string>
+    <string name="fault_max_hight">Aircraft has reached max flight altitude</string>
+    
+    <!-- Landing and Safety Messages -->
+    <string name="land_BAT_LOWPOWER">Low Battery</string>
+    <string name="land_BAT_PREHEAT">Battery temperature is too low, please preheat to 15℃ or above</string>
+    <string name="land_GPS_ERROR">GPS error, please restart aircraft</string>
+    <string name="land_IMUACCEL_ERROR">Accelerometer error, please restart aircraft</string>
+    <string name="land_IMUGYRO_ERROR">Gyroscope error, please restart aircraft</string>
+    <string name="land_LOWPOWER">Low battery, please charge or replace</string>
+    <string name="land_RPT_HOME_NOT_SET">Failed to set Home Point, it is recommended to restart the aircraft</string>
+    <string name="land_RPT_MOTOR_LOCK">The motor is locked, please check the motor status</string>
+    <string name="land_VPS_ERROR">VPU error, please restart aircraft</string>
+    
+    <!-- Feedback and Support -->
+    <string name="feedback">Feedback</string>
+    <string name="feedback_help">Feedback</string>
+    <string name="feed_back_connect_hint">Please leave us your contact details, our PM will get back to you soon</string>
+    <string name="feed_back_contact_information">Contact (Optional)</string>
+    <string name="feed_back_photo_screen_shot">Photo or Screenshots (Optional)</string>
+    <string name="feed_back_please_input_you_advice">Please leave your advice</string>
+    <string name="feed_back_problems_and_opinions">Questions and comments</string>
+    <string name="feed_back_submit_button">Submit</string>
+    <string name="feed_false">Failed to submit, please try again!</string>
+    <string name="feed_max_size">Feedback should be no more than 1000 words.</string>
+    <string name="feed_success">Success feedback! Thank you. We will handle your information as soon as possible.</string>
+    
+    <!-- Live Streaming -->
+    <string name="live_connected">Live setup successfully</string>
+    <string name="live_push_ok">On Air</string>
+    <string name="live_push_runnig">On Air</string>
+    <string name="live_stopped">Live stopped:</string>
+    <string name="live_video_disconnected">Video discontinued</string>
+    
+    <!-- Media and Gallery -->
+    <string name="local_media">Local Media</string>
+    <string name="local_media_detail">%1$s photos、%2$s videos</string>
+    <string name="cloud_online_media">Camera Media</string>
+    <string name="cloud_empty_media">Empty</string>
+    
+    <!-- Map and Location -->
+    <string name="map">Map</string>
+    <string name="location_des">Tap here and display my position during the flight</string>
+    
+    <!-- Account and Login -->
+    <string name="land">Log in</string>
+    <string name="log_out">Log out?</string>
+    <string name="login_result">Failed to login…</string>
+    <string name="login_result_net">Network connection failed…</string>
+    <string name="exited">Not logged in</string>
+    
+    <!-- Block Canary (Debug) -->
+    <string name="block_canary_block_list_title">Blocks in %s</string>
+    <string name="block_canary_class_has_blocked">blocked %s ms</string>
+    <string name="block_canary_share_with">Share with...</string>
+</resources>

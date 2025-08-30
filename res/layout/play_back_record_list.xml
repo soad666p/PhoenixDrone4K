@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/title_layout" android:background="#ff2a2a2a" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentTop="true">
+        <ImageView android:id="@id/back_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.599976dip" android:src="@drawable/btn_setting_back_selector" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/white" android:id="@id/fly_log_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/play_back_entry" android:layout_centerInParent="true" />
+        <ImageView android:background="#ff4a4a4a" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <ListView android:id="@id/log_list" android:background="#ff1f1f21" android:scrollbars="none" android:fadingEdge="none" android:animationCache="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@android:color/transparent" android:layout_weight="1.0" android:layout_below="@id/title_layout" />
+</RelativeLayout>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="com.fimi.soul" platformBuildVersionCode="30" platformBuildVersionName="11.0">
+    <permission android:name=".permission.MAPS_RECEIVE" android:protectionLevel="signature"/>
+    <uses-feature android:name="android.hardware.usb.host" android:required="true"/>
+    <uses-feature android:name="android.hardware.screen.portrait"/>
+    <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+    <uses-feature android:name="android.hardware.sensor.accelerometer" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen.multitouch" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen.multitouch.distinct" android:required="false"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <permission android:name="com.fimi.soul.permission.MIPUSH_RECEIVE" android:protectionLevel="signature"/>
+    <uses-permission android:name=".permission.MAPS_RECEIVE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+    <uses-permission android:name="com.fimi.soul.permission.MIPUSH_RECEIVE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="com.xiaomi.permission.AUTH_SERVICE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="android.permission.ACCESS_GPS"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:resizeable="true" android:smallScreens="true"/>
+    <uses-permission android:maxSdkVersion="18" android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <application android:allowBackup="false" android:debuggable="false" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:largeHeap="true" android:name="com.fimi.soul.base.DroidPlannerApp" android:theme="@style/AppTheme">
+        <meta-data android:name="com.amap.api.v2.apikey" android:value="30c553ce5ede8694dbb9d12d9eff45f2"/>
+        <activity android:configChanges="orientation|screenSize" android:launchMode="singleTask" android:name="com.fimi.soul.module.login.LaunchedActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"/>
+            </intent-filter>
+            <meta-data android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" android:resource="@xml/device_filter"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" android:launchMode="standard" android:name="com.fimi.soul.module.login.LoginActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:exported="false"/>
+        <activity android:configChanges="orientation" android:launchMode="singleTask" android:name="com.xiaomi.account.openauth.AuthorizeActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:windowSoftInputMode="stateHidden" android:exported="false"/>
+        <activity android:name="com.fimi.soul.module.login.RegisterActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:exported="false"/>
+        <activity android:configChanges="mcc|mnc|orientation|screenSize" android:launchMode="singleTask" android:name="com.fimi.soul.module.droneui.FlightActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:windowSoftInputMode="adjustResize|stateHidden" android:exported="false"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.fimi.soul.module.setting.GimalCalibration.GimalCalibrationActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:exported="false"/>
+        <activity android:configChanges="orientation|screenSize" android:launchMode="singleTask" android:name="com.fimi.soul.module.setting.GimalCalibration.ResultCalibrationActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:exported="false"/>
+        <activity android:label="@string/feedback" android:name="com.fimi.soul.module.setting.UserFeedBackActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:windowSoftInputMode="stateHidden" android:exported="false"/>
+        <activity android:label="@string/about" android:name="com.fimi.soul.module.setting.AboutActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:windowSoftInputMode="stateHidden" android:exported="false"/>
+        <activity android:label="@string/about" android:name="com.fimi.x1bh.module.about.CloudAboutActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:windowSoftInputMode="stateHidden" android:exported="false"/>
+        <activity android:label="@string/battery_info" android:name="com.fimi.soul.module.droneui.BatteryInfoActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:windowSoftInputMode="stateHidden" android:exported="false"/>
+        <activity android:label="@string/title_imu" android:name="com.fimi.soul.module.droneui.IMUActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:windowSoftInputMode="stateHidden" android:exported="false"/>
+        <activity android:label="@string/title_imu" android:name="com.fimi.soul.module.droneui.IMU4KActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:windowSoftInputMode="stateHidden" android:exported="false"/>
+        <service android:name="com.fimi.soul.service.UpdateApkService" android:exported="false"/>
+        <service android:name="com.fimi.soul.service.CameraSocketService" android:exported="false"/>
+        <service android:name="com.fimi.soul.service.InitAppService" android:exported="false"/>
+        <activity android:launchMode="singleTop" android:name="com.fimi.soul.module.social.WebViewActivity" android:screenOrientation="portrait" android:theme="@style/AppBaseTheme" android:windowSoftInputMode="adjustResize|stateHidden" android:exported="false"/>
+        <service android:enabled="true" android:name="com.xiaomi.push.service.XMPushService" android:process=":pushservice" android:exported="false"/>
+        <service android:enabled="true" android:exported="false" android:name="com.xiaomi.push.service.XMJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:process=":pushservice"/>
+        <service android:enabled="true" android:exported="true" android:name="com.xiaomi.mipush.sdk.PushMessageHandler"/>
+        <service android:enabled="true" android:name="com.xiaomi.mipush.sdk.MessageHandleService" android:exported="false"/>
+        <receiver android:exported="true" android:name="com.xiaomi.push.service.receivers.NetworkStatusReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.xiaomi.push.service.receivers.PingReceiver" android:process=":pushservice">
+            <intent-filter>
+                <action android:name="com.xiaomi.push.PING_TIMER"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.fimi.soul.module.push.DroipMessageReceiver">
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.RECEIVE_MESSAGE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.MESSAGE_ARRIVED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.ERROR"/>
+            </intent-filter>
+        </receiver>
+        <activity android:exported="true" android:name="com.fimi.soul.wxapi.WXEntryActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:launchMode="singleTask" android:name="com.tencent.tauth.AuthActivity" android:noHistory="true" android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="tencent AppId"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.tencent.connect.common.AssistActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:exported="false"/>
+        <activity android:name="com.fimi.soul.media.gallery.ImagePagerActivity" android:theme="@android:style/Theme.Holo.Light.NoActionBar" android:exported="false"/>
+        <service android:name="com.fimi.soul.drone.droneconnection.connection.service.MiLinkService" android:exported="false"/>
+        <service android:name="com.fimi.soul.service.DroneConnectService" android:exported="false"/>
+        <service android:enabled="true" android:exported="true" android:name="com.fimi.soul.service.UpdateFirmwareService"/>
+        <service android:enabled="true" android:exported="true" android:name="com.fimi.soul.service.DroneFaultService"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" android:name="com.fimi.soul.module.flyplannermedia.DroneMediaTabActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:exported="false"/>
+        <activity android:name="com.fimi.soul.media.gallery.DroneImagePagerActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:exported="false"/>
+        <activity android:name="com.fimi.soul.module.update.UpgradeFailedActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:exported="false"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.fimi.soul.module.update.CheckFirmwareActvity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:exported="false"/>
+        <activity android:label="@string/title_activity_find_new_firmware_avtivity" android:name="com.fimi.soul.module.update.FindNewFirmwareAvtivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:exported="false"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.fimi.soul.module.update.UpgradeResultActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:exported="false"/>
+        <activity android:name="com.fimi.soul.module.update.FindOnlineFirmwareAvtivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:exported="false"/>
+        <activity android:configChanges="orientation|screenSize" android:launchMode="singleTask" android:name="com.fimi.soul.module.update.DowningActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:exported="false"/>
+        <activity android:name="com.fimi.soul.module.update.DownFailedActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:exported="false"/>
+        <activity android:configChanges="orientation|screenSize" android:launchMode="singleTask" android:name="com.fimi.soul.module.update.UpgradingActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:exported="false"/>
+        <activity android:configChanges="orientation|screenSize" android:launchMode="singleTask" android:name="com.fimi.x1bh.module.update.X1bhFindNewFirmwareAvtivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:exported="false"/>
+        <activity android:configChanges="orientation|screenSize" android:launchMode="singleTask" android:name="com.fimi.x1bh.module.update.X1bhUpgradingActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:exported="false"/>
+        <activity android:configChanges="orientation|screenSize" android:launchMode="singleTask" android:name="com.fimi.x1bh.module.update.X1bhFindOnlineFirmwareAvtivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:exported="false"/>
+        <activity android:name="com.fimi.soul.module.flyplannermedia.DroneMediaTestActivity" android:screenOrientation="landscape" android:exported="false"/>
+        <activity android:name="com.fimi.soul.module.remote.RemoteModelActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:exported="false"/>
+        <activity android:configChanges="orientation|screenSize" android:launchMode="singleTask" android:name="com.fimi.soul.module.remote.RemoteCalibration" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:exported="false"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.fimi.soul.media.player.FermiPlayerActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:exported="false"/>
+        <activity android:name="com.fimi.soul.media.player.FermiPlayerFullActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:exported="false"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.fimi.soul.module.setting.newhand.NewHandActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:exported="false"/>
+        <service android:name="com.fimi.soul.service.UsbStatus" android:exported="false"/>
+        <activity android:configChanges="orientation|screenSize" android:launchMode="singleTask" android:name="com.fimi.soul.module.calibcompass.CaliCompassActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:exported="false"/>
+        <service android:name="com.amap.api.location.APSService" android:exported="false"/>
+        <activity android:name="com.fimi.soul.module.setting.ShowTextActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:exported="false"/>
+        <service android:name="com.fimi.soul.service.CheckCampassCaliService" android:exported="false"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mob.tools.MobUIShell" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:windowSoftInputMode="adjustResize|stateHidden" android:exported="false">
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.fimi.soul.module.setting.FlyRecordActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:exported="false"/>
+        <activity android:name="com.fimi.soul.module.setting.FlyLogsActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:exported="false"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.mining.app.zxing.activity.MipcaActivityCapture" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:windowSoftInputMode="stateAlwaysHidden" android:exported="false"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.fimi.soul.module.setting.newhand.GpsSettingActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:exported="false"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.fimi.soul.module.paircode.PairCodeActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:exported="false"/>
+        <activity android:name="com.fimi.soul.module.setting.RightRollerSetActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:exported="false"/>
+        <service android:name="com.fimi.soul.service.RequestVersionService" android:exported="false"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.fimi.soul.module.droneTrack.PlayBackDroneTrackActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:exported="false"/>
+        <receiver android:name="com.fimi.soul.utils.FlyLogTools" android:exported="false">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <activity android:name="com.fimi.soul.module.push.HistoryMessageActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:windowSoftInputMode="stateHidden" android:exported="false"/>
+        <activity android:name="com.fimi.soul.module.push.MessageDetailActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:exported="false"/>
+        <activity android:launchMode="singleTop" android:name="com.fimi.soul.module.forum.CameraCourseActivity" android:screenOrientation="portrait" android:theme="@style/AppBaseTheme" android:windowSoftInputMode="adjustResize|stateHidden" android:exported="false"/>
+        <activity android:configChanges="orientation|screenSize" android:launchMode="singleTop" android:name="com.fimi.soul.module.customerfeedback.CustomerFeedBackActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:windowSoftInputMode="adjustPan" android:exported="false"/>
+        <activity android:configChanges="orientation|screenSize" android:launchMode="singleTop" android:name="com.fimi.soul.module.customerfeedback.FeedBackNavigationActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:exported="false"/>
+        <activity android:configChanges="orientation|screenSize" android:launchMode="singleTop" android:name="com.fimi.soul.module.customerfeedback.FaqActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:exported="false"/>
+        <activity android:name="com.fimi.soul.module.droneui.MoreInfoSettingAcitivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:windowSoftInputMode="stateHidden" android:exported="false"/>
+        <activity android:configChanges="orientation|screenSize" android:launchMode="singleTop" android:name="com.fimi.soul.module.customerfeedback.WebViewActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:exported="false"/>
+        <activity android:name="com.fimi.soul.module.setting.gimaltuneparameter.GimalTuneParameterActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:exported="false"/>
+        <service android:name="com.fimi.soul.service.QueryDynamicFlyZoneSetvice" android:exported="false"/>
+        <activity android:configChanges="mcc|mnc|orientation|screenSize" android:launchMode="singleTask" android:name="com.fimi.x1bh.module.main.CloudTerraceMainActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:windowSoftInputMode="adjustResize|stateHidden" android:exported="false"/>
+        <activity android:name="com.fimi.x1bh.module.setting.CloudTerraceSettingActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:exported="false"/>
+        <activity android:name="com.fimi.x1bh.module.arrowkey.ArrowKeyActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:exported="false"/>
+        <activity android:name="com.fimi.x1bh.module.camerasetting.CloudCameraSettingActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:exported="false"/>
+        <activity android:name="com.fimi.soul.module.login.UserProtocolWebViewActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:exported="false"/>
+        <activity android:enabled="false" android:icon="@drawable/block_canary_icon" android:label="@string/display_activity_label" android:name="com.github.moduth.blockcanary.ui.DisplayBlockActivity" android:taskAffinity="com.github.moduth.blockcanary" android:theme="@style/block_canary_BlockCanary.Base" android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

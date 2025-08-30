@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ff1f1f21" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/pairtop_layout" android:background="#ff2a2a2a" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentTop="true">
+        <ImageView android:id="@id/pair_back_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:src="@drawable/btn_setting_back_selector" android:layout_centerVertical="true" />
+        <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:id="@id/pair_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/paircode_title" android:layout_centerInParent="true" />
+        <ImageView android:background="#ff4a4a4a" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center" android:orientation="horizontal" android:id="@id/pair_context" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/pairtop_layout" android:layout_centerInParent="true" />
+</RelativeLayout>

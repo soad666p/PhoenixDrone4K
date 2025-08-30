@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/dialog_bg" android:layout_width="361.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="13.599976sp" android:textColor="#cc000000" android:gravity="center" android:id="@id/msg_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="21.0dip" android:maxEms="19" android:layout_centerHorizontal="true" />
+    <TextView android:id="@id/standard_line" android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="13.599976sp" android:textColor="#cc000000" android:id="@id/content_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="21.0dip" android:layout_below="@id/msg_tv" android:layout_centerHorizontal="true" />
+    <Button android:textSize="13.0sp" android:textColor="#b3000000" android:id="@id/left_btn" android:background="@drawable/btn_bg_dialog_left_sector" android:layout_width="157.0dip" android:layout_height="40.0dip" android:layout_marginTop="22.0dip" android:layout_marginBottom="22.0dip" android:layout_toLeftOf="@id/standard_line" android:layout_below="@id/content_tv" />
+    <Button android:textSize="13.0sp" android:textColor="#cc000000" android:id="@id/right_btn" android:background="@drawable/btn_bg_dialog_right_sector" android:layout_width="157.0dip" android:layout_height="40.0dip" android:layout_marginTop="22.0dip" android:layout_marginBottom="22.0dip" android:layout_toRightOf="@id/standard_line" android:layout_below="@id/content_tv" />
+</RelativeLayout>

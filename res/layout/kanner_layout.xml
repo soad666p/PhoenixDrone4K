@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v4.view.ViewPager android:id="@id/vp" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="right" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/ll_dot" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/v_dot1" android:background="@drawable/dot_focus" android:layout_width="8.0dip" android:layout_height="8.0dip" />
+        <View android:id="@id/v_dot2" android:background="@drawable/dot_blur" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_marginLeft="5.0dip" />
+    </LinearLayout>
+</merge>

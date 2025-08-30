@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/list_setting_selector" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="51.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/item_icon" android:background="@drawable/arrow_icon" android:focusable="false" android:layout_width="6.0dip" android:layout_height="9.0dip" android:layout_marginLeft="10.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="@drawable/roller_iitem_selector" android:id="@id/item_name" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/about" />
+</LinearLayout>

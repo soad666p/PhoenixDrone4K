@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/pair_success" android:background="#ff1f1f21" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/con_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="65.29999dip" android:src="@drawable/icon_calibration_succeed" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="16.599976sp" android:textColor="#ccffffff" android:id="@id/connect_des_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" android:text="@string/pairt_sucessful" android:layout_below="@id/con_icon" android:layout_centerHorizontal="true" />
+    <Button android:textSize="13.299988sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/con_submit" android:background="@drawable/remotenext" android:layout_width="239.0dip" android:layout_height="40.0dip" android:layout_marginBottom="26.599976dip" android:text="@string/ensure" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

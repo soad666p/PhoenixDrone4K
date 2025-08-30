@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fimi.kernel.view.percent.PercentRelativeLayout android:id="@id/newhand_fragment_four" android:background="@drawable/newbie_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.fimi.kernel.view.percent.PercentLinearLayout android:id="@id/top_item" android:layout_marginTop="92.0dip" style="@style/new_hand_header_layout">
+        <TextView android:id="@id/tv_seq" style="@style/new_hand_header_serial_sequence" />
+        <TextView android:id="@id/tv_total" android:text="/7" style="@style/new_hand_header_total_count" />
+        <TextView android:id="@id/tv_title" android:layout_toLeftOf="@id/ben_v" style="@style/new_hand_header_title" />
+    </com.fimi.kernel.view.percent.PercentLinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.299988dip" android:layout_below="@id/top_item">
+        <TextView android:id="@id/tv_number_one" android:text="1." style="@style/new_hand_seq" />
+        <TextView android:id="@id/tv_tip_one" android:layout_toLeftOf="@id/tv_1" style="@style/new_hand_tip_tv" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/ll_2" android:layout_below="@id/ll_1" style="@style/new_hand_line_spacing">
+        <TextView android:id="@id/tv_number_two" android:text="2." style="@style/new_hand_seq" />
+        <TextView android:id="@id/tv_tip_two" android:layout_toLeftOf="@id/tv_2" style="@style/new_hand_tip_tv" />
+    </LinearLayout>
+    <ImageView android:layout_width="192.0dip" android:layout_height="86.0dip" android:layout_marginRight="63.329987dip" android:src="@drawable/newhand__left_rocker" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <Button android:textSize="13.0sp" android:textColor="#9dffffff" android:gravity="center" android:id="@id/btn_next" android:background="@drawable/newhand_selector" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="33.299988dip" android:text="@string/next" android:layout_below="@id/ll_2" app:layout_widthPercent="36.4%w" app:layout_heightPercent="11.1%h" app:layout_marginLeftPercent="14.6%h" />
+    <TextView android:textSize="12.0dip" android:textColor="@drawable/tv_skip_selector" android:gravity="center" android:id="@id/newhand_skip_tv" android:layout_width="52.0dip" android:layout_height="40.0dip" android:text="@string/skip" android:layout_alignParentRight="true" />
+</com.fimi.kernel.view.percent.PercentRelativeLayout>

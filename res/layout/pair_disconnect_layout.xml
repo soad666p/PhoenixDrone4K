@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:id="@id/dis_connect_layout" android:background="#ff1f1f21" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/con_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:src="@drawable/icon_connection_break" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="16.599976sp" android:textColor="#ffffffff" android:id="@id/connect_dis_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="@string/pair_discon" android:layout_below="@id/con_icon" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="12.0sp" android:textColor="#7dffffff" android:id="@id/connect_dis_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/pair_discon_des" android:layout_below="@id/connect_dis_title" android:layout_centerHorizontal="true" />
+    <Button android:textSize="13.299988sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/dis_con_submit" android:background="@drawable/remotenext" android:layout_width="150.0dip" android:layout_height="35.0dip" android:layout_marginTop="30.0dip" android:text="@string/ensure" android:layout_below="@id/connect_dis_tip" android:layout_centerHorizontal="true" />
+</RelativeLayout>

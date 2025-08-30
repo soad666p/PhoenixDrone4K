@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/drawerview" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/fragment_camera_preview" />
+    <RelativeLayout android:gravity="center" android:id="@id/gimal_angle_rl" android:background="@drawable/full_screen_tv" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="42.0dip" android:layout_marginLeft="11.5dip" android:layout_marginTop="11.5dip">
+        <TextView android:textSize="12.0dip" android:textColor="#99ffffff" android:id="@id/gimal_angle_label_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/cloud_camer_angle_des" />
+        <TextView android:textSize="12.0dip" android:textColor="#ffff4f00" android:id="@id/gimal_angle_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="40" android:layout_toRightOf="@id/gimal_angle_label_tv" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center" android:layout_gravity="right" android:id="@id/electivity_rl" android:background="@drawable/full_screen_tv" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="42.0dip" android:layout_marginTop="11.5dip" android:layout_marginRight="11.5dip">
+        <TextView android:textSize="12.0dip" android:textColor="#99ffffff" android:id="@id/electivity_lable_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/show_drone_ui_ectricity_lable" />
+        <TextView android:textSize="12.0dip" android:textColor="#ff4ccdf7" android:id="@id/electivity_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:text="0" android:layout_toRightOf="@id/electivity_lable_tv" />
+    </RelativeLayout>
+    <include android:layout_gravity="left" android:id="@id/showui" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/showdroneui_fragment" />
+</FrameLayout>

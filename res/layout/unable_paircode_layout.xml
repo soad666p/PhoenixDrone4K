@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/sky_layout" android:background="#ff1f1f21" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="#ccffffff" android:id="@id/unstep_des" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.599976dip" android:text="@string/match_code_unable" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/undes_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28.0dip" android:src="@drawable/img_flying_plane" android:layout_below="@id/unstep_des" android:layout_centerHorizontal="true" />
+    <Button android:enabled="false" android:textSize="12.0sp" android:textColor="#78ffffff" android:gravity="center" android:id="@id/unmatch_btn" android:background="@drawable/remotenext" android:layout_width="152.0dip" android:layout_height="40.0dip" android:layout_marginBottom="26.599976dip" android:text="@string/start_match_code" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

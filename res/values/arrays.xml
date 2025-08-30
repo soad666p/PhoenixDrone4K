@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Opration_Code">
+        <item>upload POI data and start POI mission</item>
+        <item>set yaw mode</item>
+        <item>reserved</item>
+        <item>set poi mission idle velocity</item>
+        <item>set poi mission radius</item>
+        <item>reset yaw of poi mission</item>
+        <item>download poi mission data</item>
+        <item>enable auto-radius mode</item>
+    </string-array>
+    <string-array name="camera_image_resolution">
+        <item>16M()4608x3456 4:3)</item>
+        <item>13M(4128x3096 4:3)</item>
+        <item>8M(3264x2448 4:3)</item>
+        <item>5M(2560x1920 4:3)</item>
+    </string-array>
+    <string-array name="camera_menu">
+        <item>EV</item>
+        <item>饱和度</item>
+        <item>对比度</item>
+        <item>锐度</item>
+        <item>白平衡</item>
+    </string-array>
+    <string-array name="camera_mode">
+        <item>相机模式</item>
+        <item>存储模式</item>
+    </string-array>
+    <string-array name="camera_video_quality">
+        <item>高</item>
+        <item>中</item>
+        <item>低</item>
+    </string-array>
+    <string-array name="camera_video_timestamp">
+        <item>日期</item>
+        <item>时间</item>
+        <item>日期/时间</item>
+        <item>关闭</item>
+    </string-array>
+    <string-array name="cmd_whitebalance">
+        <item>auto</item>
+        <item>incandescent</item>
+        <item>d4000</item>
+        <item>d5000</item>
+        <item>sunny</item>
+        <item>cloudy</item>
+    </string-array>
+    <string-array name="contrast">
+        <item>0</item>
+        <item>256</item>
+    </string-array>
+    <string-array name="drone_head">
+        <item>指向兴趣点</item>
+        <item>与飞行方向一致</item>
+        <item>背向兴趣点</item>
+        <item>摇杆控制</item>
+        <item>起始航向方向</item>
+    </string-array>
+    <string-array name="ev">
+        <item>-2.0</item>
+        <item>-1.7</item>
+        <item>-1.3</item>
+        <item>-1.0</item>
+        <item>-0.7</item>
+        <item>-0.3</item>
+        <item>0.0</item>
+        <item>+0.3</item>
+        <item>+0.7</item>
+        <item>+1.0</item>
+        <item>+1.3</item>
+        <item>+1.7</item>
+        <item>+2.0</item>
+    </string-array>
+    <string-array name="faq_list_content">
+        <item>@string/hot_answer</item>
+        <item>@string/drone</item>
+        <item>@string/remote</item>
+        <item>@string/cloud_camera</item>
+        <item>@string/faq_battery</item>
+        <item>@string/app</item>
+        <item>@string/faq_secure</item>
+        <item>@string/others</item>
+    </string-array>
+    <string-array name="feedback_navigation">
+        <item>@string/faq</item>
+        <item>@string/totural</item>
+        <item>@string/feedback_help</item>
+    </string-array>
+    <string-array name="fileEndingAudio">
+        <item>.mp3</item>
+        <item>.wav</item>
+        <item>.ogg</item>
+        <item>.midi</item>
+    </string-array>
+    <string-array name="fileEndingImage">
+        <item>.png</item>
+        <item>.gif</item>
+        <item>.jpg</item>
+        <item>.JPG</item>
+        <item>.jpeg</item>
+        <item>.bmp</item>
+    </string-array>
+    <string-array name="fileEndingVideo">
+        <item>.mp4</item>
+        <item>.rmvb</item>
+        <item>.avi</item>
+        <item>.AVI</item>
+        <item>.flv</item>
+    </string-array>
+    <string-array name="history">
+        <item>上传所有轨迹</item>
+        <item>删除所有轨迹</item>
+    </string-array>
+    <string-array name="modelcontrol">
+        <item>Model美国手</item>
+        <item>Model日本手</item>
+    </string-array>
+    <string-array name="operate_dialog_items">
+        <item>预览</item>
+        <item>删除</item>
+    </string-array>
+    <string-array name="requestID">
+        <item>FC</item>
+        <item>Gimbal</item>
+        <item>Battery</item>
+    </string-array>
+    <string-array name="right_set">
+        <item>调节机头白灯亮度</item>
+        <item>调节相机EV值</item>
+        <item>切换GPS/ATTI模式</item>
+    </string-array>
+    <string-array name="saturation">
+        <item>0</item>
+        <item>256</item>
+    </string-array>
+    <string-array name="sharpan">
+        <item>默认</item>
+        <item>高</item>
+    </string-array>
+    <string-array name="shot_mode">
+        <item>普通</item>
+        <item>延时</item>
+        <item>连拍</item>
+    </string-array>
+    <string-array name="version">
+        <item>飞控</item>
+        <item>遥控</item>
+        <item>接收机</item>
+        <item>轴云台1</item>
+        <item>轴云台2</item>
+        <item>电池</item>
+    </string-array>
+    <string-array name="video_resolution_ntsc_text">
+        <item>1920x1080 60P 16:9</item>
+        <item>1920x1080 30P 16:9</item>
+        <item>1600x1200 30P 4:3</item>
+        <item>1280x720 120P 16:9</item>
+        <item>848x480 240P 16:9</item>
+    </string-array>
+    <string-array name="video_resolution_pal_text">
+        <item>1920x1080 50P 16:9</item>
+        <item>1920x1080 25P 16:9</item>
+        <item>1600x1200 25P 4:3</item>
+        <item>1280x720 100P 16:9</item>
+        <item>848x480 200P 16:9</item>
+    </string-array>
+    <string-array name="video_standard_text_value">
+        <item>NTSC</item>
+        <item>PAL</item>
+    </string-array>
+    <string-array name="whitebalance">
+        <item>自动</item>
+        <item>白炽灯</item>
+        <item>d4000</item>
+        <item>d5000</item>
+        <item>晴朗</item>
+        <item>多云</item>
+    </string-array>
+    <string-array name="yaw_mode">
+        <item>point to velocity direction</item>
+        <item>face inside</item>
+        <item>face ouside</item>
+        <item>controlled by RC</item>
+        <item>same as the starting yaw</item>
+    </string-array>
+</resources>

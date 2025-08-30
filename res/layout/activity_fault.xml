@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="left" android:layout_gravity="center" android:orientation="horizontal" android:background="@drawable/serious_warning_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="160.0dip" android:layout_marginTop="110.0dip" android:layout_marginRight="160.0dip" android:layout_marginBottom="110.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:id="@id/error_icon" android:layout_width="150.0dip" android:layout_height="150.0dip" android:src="@drawable/internal_fault" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center|left" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <TextView android:textSize="42.0px" android:textStyle="bold" android:textColor="#ccffffff" android:layout_gravity="left" android:id="@id/fault_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="title" android:singleLine="true" />
+        <TextView android:textSize="32.0px" android:textColor="#80ffffff" android:layout_gravity="left" android:id="@id/fault_describe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="34.0px" android:text="describe" android:singleLine="true" />
+        <Button android:textSize="40.0px" android:textColor="#b2ffffff" android:gravity="center" android:id="@id/command_one" android:background="@drawable/register_btn_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="83.0px" android:text="@string/autoreturnto" />
+        <Button android:textSize="40.0px" android:textColor="#b2ffffff" android:gravity="center" android:id="@id/command_two" android:background="@drawable/register_btn_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50.0px" android:text="@string/auto_land" />
+    </LinearLayout>
+</LinearLayout>

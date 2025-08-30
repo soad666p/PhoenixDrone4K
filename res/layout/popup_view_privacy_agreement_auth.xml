@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fimi.soul.module.login.PrivacyAgreementView android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="24.0sp" android:textColor="@color/black" android:gravity="center_horizontal" android:background="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" android:text="@string/privacy_title" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="left" android:id="@id/privacy_desc" android:background="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="start" android:orientation="horizontal" android:background="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip">
+            <CheckBox android:id="@id/ck_protocol" android:background="@drawable/bg_choice_selector_v2" android:layout_width="15.0dip" android:layout_height="15.0dip" android:button="@null" />
+            <TextView android:textSize="14.0sp" android:textColor="#ff4185de" android:id="@id/privacy_tv" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+        </LinearLayout>
+        <View android:layout_width="fill_parent" android:layout_height="0.33000004dip" android:layout_marginTop="35.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <TextView android:textColor="@color/black" android:gravity="center" android:id="@id/btn_not_agreement" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/disagree" android:layout_weight="1.0" />
+            <View android:layout_width="0.33000004dip" android:layout_height="fill_parent" />
+            <TextView android:textColor="@color/black" android:gravity="center" android:id="@id/btn_agreement" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/agree" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</com.fimi.soul.module.login.PrivacyAgreementView>

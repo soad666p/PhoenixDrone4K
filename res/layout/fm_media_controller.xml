@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fimi.kernel.view.percent.PercentRelativeLayout android:orientation="vertical" android:id="@id/activity_general_setting" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageButton android:id="@id/prev" android:visibility="gone" style="@android:style/MediaButton.Previous" />
+    <ImageButton android:id="@id/rew" android:visibility="gone" style="@android:style/MediaButton.Rew" />
+    <ImageButton android:id="@id/ffwd" android:visibility="gone" style="@android:style/MediaButton.Ffwd" />
+    <ImageButton android:id="@id/next" android:visibility="gone" style="@android:style/MediaButton.Next" />
+    <com.fimi.kernel.view.percent.PercentRelativeLayout android:id="@id/process_play" android:background="#cc1f1f21" android:layout_width="fill_parent" android:layout_height="67.0dip">
+        <TextView android:background="#26ffffff" android:layout_width="fill_parent" android:layout_height="0.33000004dip" />
+        <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/time_current" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="21.0dip" />
+        <ImageButton android:id="@id/pause" android:background="@drawable/drone_play" android:visibility="visible" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:layout_marginRightPercent="3.125%" />
+        <SeekBar android:id="@id/fmmediacontroller_progress" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="11.0dip" android:thumb="@drawable/play_speed" android:layout_toLeftOf="@id/pause" android:layout_below="@id/time_current" android:layout_centerVertical="true" style="@style/Widget.SeekBar.Normal" />
+        <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="21.0dip" android:layout_marginRight="10.0dip" android:layout_alignRight="@id/fmmediacontroller_progress" />
+    </com.fimi.kernel.view.percent.PercentRelativeLayout>
+</com.fimi.kernel.view.percent.PercentRelativeLayout>

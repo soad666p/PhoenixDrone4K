@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/drawerview" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/fragment_camera_preview" />
+    <Button android:textSize="30.0sp" android:textColor="@color/white" android:layout_gravity="top" android:id="@id/btn_startPlay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="開始播放視頻" />
+    <Button android:textSize="30.0sp" android:textColor="@color/white" android:layout_gravity="bottom" android:id="@id/btn_startThumb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="開始獲取縮略圖" />
+</FrameLayout>

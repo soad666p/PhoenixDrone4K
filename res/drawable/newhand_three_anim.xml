@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="2000" android:drawable="@drawable/new_hand_lay_drone" />
+    <item android:duration="2000" android:drawable="@drawable/img_guide_plane_steady" />
+</animation-list>

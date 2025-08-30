@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="calibra">160.0dip</dimen>
+    <dimen name="calibraradio">130.0dip</dimen>
+    <dimen name="calibraradioitem">40.0dip</dimen>
+    <dimen name="calibratext">20.0dip</dimen>
+    <dimen name="calibratext2">30.0dip</dimen>
+    <dimen name="carlinpaing">200.0dip</dimen>
+    <dimen name="fillbarpaint">410.0dip</dimen>
+    <dimen name="fillbarpaint2">430.0dip</dimen>
+    <dimen name="flight_go">65.0dip</dimen>
+    <dimen name="historydetile">280.0dip</dimen>
+    <dimen name="leftbutton">450.0dip</dimen>
+    <dimen name="rightbutton">480.0dip</dimen>
+    <dimen name="rollbar">160.0dip</dimen>
+    <dimen name="tobutton">520.0dip</dimen>
+    <dimen name="sliding_w">20.0dip</dimen>
+    <dimen name="editfinishdialog">180.0dip</dimen>
+    <dimen name="flightrollbar">180.0dip</dimen>
+</resources>

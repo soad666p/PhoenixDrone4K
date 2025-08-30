@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="200.0dip" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+        <TextView android:textSize="17.0sp" android:textColor="#80ffffff" android:gravity="center" android:id="@id/welcom_tv" android:paddingTop="40.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/welcomuseing" />
+        <TextView android:textSize="25.0sp" android:textStyle="bold" android:textColor="#ccffffff" android:gravity="center" android:id="@id/miaircraft_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/miaircraft" />
+        <Button android:textColor="#e6ffffff" android:id="@id/register_bt" android:background="@drawable/login_btn_selector" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="0.0dip" android:text="@string/land" android:layout_below="@id/miaircraft_tv" />
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <Button android:textColor="#b2ffffff" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/login_bt" android:background="@drawable/login_btn_selector" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/land" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="40.0dip">
+            <CheckBox android:id="@id/cbAgree" android:background="@drawable/bg_choice_selector_v2" android:layout_width="15.0dip" android:layout_height="15.0dip" android:button="@null" />
+            <TextView android:id="@id/loginmillet_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/aggree_milletr" />
+            <TextView android:id="@id/tvProtocol" android:paddingRight="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/agreement_protocol" android:paddingEnd="1.0dip" />
+            <TextView android:id="@id/tvComma" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="、" />
+            <TextView android:id="@id/tvPrivacy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/agreement_privacy" />
+            <TextView android:id="@id/agreement_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/agreement_yu" />
+            <TextView android:id="@id/agreementshengming_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/agreement_shengming" />
+            <TextView android:textColor="#4cffffff" android:id="@id/nologin_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="0.0dip" android:text="@string/notneedlogin" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/login_progress_rl" android:background="#bf000000" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:id="@id/progressBar" android:layout_width="40.0dip" android:layout_height="40.0dip" android:indeterminate="true" android:indeterminateDrawable="@drawable/progress_login" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

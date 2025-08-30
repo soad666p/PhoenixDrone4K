@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/update_failed_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/upgrade_iv" android:background="@drawable/update_waining" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="70.0dip" />
+    <TextView android:textSize="16.699982sp" android:textColor="#b4ffffff" android:layout_gravity="center_horizontal" android:id="@id/downResult" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" android:text="@string/downfail1" />
+    <TextView android:textSize="12.0sp" android:textColor="#43ffffff" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/downFailedText" android:layout_width="334.0dip" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/no_available_network" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="47.69998dip">
+        <Button android:id="@id/download_later" android:background="@drawable/btn_left_choose" android:text="@string/exit" style="@style/btn_choose_left_style" />
+        <Button android:id="@id/retry_btn" android:background="@drawable/btn_right_choose" android:text="@string/redownload" style="@style/btn_choose_right_style" />
+    </LinearLayout>
+</LinearLayout>

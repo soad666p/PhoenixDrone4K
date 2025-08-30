@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/x1bh_camera_preview" />
+    <include android:id="@id/camera_top_bar" layout="@layout/camera_top_bar" />
+    <include android:id="@id/camera_bottom_bar" layout="@layout/camera_bottom_bar" />
+    <ImageView android:id="@id/setting_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="24.599976dip" android:layout_marginBottom="25.299988dip" android:src="@drawable/cloud_enter_setting_selector" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="#ff2a2a2a" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <ImageView android:id="@id/back_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.599976dip" android:src="@drawable/btn_setting_back_selector" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/white" android:id="@id/fly_log_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fly_record" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <TextView android:background="#ff4a4a4a" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <RelativeLayout android:background="#ff1f1f21" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/left_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="63.299988dip" android:layout_toLeftOf="@id/center_layout" android:layout_centerVertical="true">
+            <ImageView android:id="@id/icon_killo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_fly_kilometre" />
+            <LinearLayout android:gravity="center|left" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/icon_killo">
+                <TextView android:textSize="12.0sp" android:textColor="#99ffffff" android:id="@id/killo_v" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fly_kilometer" />
+                <TextView android:textSize="29.299988dip" android:textColor="@color/white" android:id="@id/fly_Killometers" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/center_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:id="@id/icon_min" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_fly_minute" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/icon_min">
+                <TextView android:textSize="12.0sp" android:textColor="#99ffffff" android:id="@id/fly_min_v" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fly_total_min" />
+                <TextView android:textSize="29.299988dip" android:textColor="@color/white" android:id="@id/fly_long" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/count_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="63.299988dip" android:layout_toRightOf="@id/center_layout" android:layout_centerVertical="true">
+            <ImageView android:id="@id/icon_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_fly_time" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/icon_count">
+                <TextView android:textSize="12.0sp" android:textColor="#99ffffff" android:id="@id/fly_count_v" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fly_total_time" />
+                <TextView android:textSize="29.299988dip" android:textColor="@color/white" android:id="@id/fly_times" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

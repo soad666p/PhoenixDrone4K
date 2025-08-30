@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fimi.kernel.view.percent.PercentRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/backgroundic" android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@drawable/serious_warning_bg" android:layout_centerHorizontal="true" android:layout_centerVertical="true" app:layout_widthPercent="48.229%w" app:layout_heightPercent="40.74%h" />
+    <ImageView android:id="@id/erroric" android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@drawable/internal_fault" android:layout_centerVertical="true" app:layout_widthPercent="36.667%h" app:layout_heightPercent="36.667%h" app:layout_marginLeftPercent="27.604%w" />
+    <com.fimi.kernel.view.percent.PercentRelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/erroric" android:layout_centerHorizontal="true" android:layout_centerVertical="true" app:layout_marginTopPercent="1.77%w">
+        <TextView android:textSize="@dimen/lostdronetitle" android:textColor="@color/white" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lostcontroltitle" />
+        <TextView android:textSize="@dimen/lostdronereason" android:textColor="@color/white" android:id="@id/desmessage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lostcontrodes" android:layout_below="@id/title" android:alpha="0.7" app:layout_marginTopPercent="1%h" />
+    </com.fimi.kernel.view.percent.PercentRelativeLayout>
+</com.fimi.kernel.view.percent.PercentRelativeLayout>

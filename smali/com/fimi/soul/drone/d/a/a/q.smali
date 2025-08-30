@@ -1,0 +1,112 @@
+.class public Lcom/fimi/soul/drone/d/a/a/q;
+.super Lcom/fimi/soul/drone/d/a/b;
+
+
+# instance fields
+.field private a:B
+
+.field private c:B
+
+.field private d:B
+
+.field private e:S
+
+.field private f:B
+
+
+# direct methods
+.method public constructor <init>(Lcom/fimi/soul/drone/d/a/c;)V
+    .locals 1
+
+    invoke-direct {p0}, Lcom/fimi/soul/drone/d/a/b;-><init>()V
+
+    iget v0, p1, Lcom/fimi/soul/drone/d/a/c;->c:I
+
+    iput v0, p0, Lcom/fimi/soul/drone/d/a/a/q;->b:I
+
+    iget-object v0, p1, Lcom/fimi/soul/drone/d/a/c;->d:Lcom/fimi/soul/drone/d/a/d;
+
+    invoke-virtual {p0, v0}, Lcom/fimi/soul/drone/d/a/a/q;->a(Lcom/fimi/soul/drone/d/a/d;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public a()B
+    .locals 1
+
+    iget-byte v0, p0, Lcom/fimi/soul/drone/d/a/a/q;->c:B
+
+    return v0
+.end method
+
+.method public a(Lcom/fimi/soul/drone/d/a/d;)V
+    .locals 1
+
+    invoke-virtual {p1}, Lcom/fimi/soul/drone/d/a/d;->c()V
+
+    invoke-virtual {p1}, Lcom/fimi/soul/drone/d/a/d;->d()B
+
+    move-result v0
+
+    iput-byte v0, p0, Lcom/fimi/soul/drone/d/a/a/q;->a:B
+
+    invoke-virtual {p1}, Lcom/fimi/soul/drone/d/a/d;->d()B
+
+    move-result v0
+
+    iput-byte v0, p0, Lcom/fimi/soul/drone/d/a/a/q;->c:B
+
+    invoke-virtual {p1}, Lcom/fimi/soul/drone/d/a/d;->d()B
+
+    move-result v0
+
+    iput-byte v0, p0, Lcom/fimi/soul/drone/d/a/a/q;->d:B
+
+    invoke-virtual {p1}, Lcom/fimi/soul/drone/d/a/d;->e()S
+
+    move-result v0
+
+    iput-short v0, p0, Lcom/fimi/soul/drone/d/a/a/q;->e:S
+
+    invoke-virtual {p1}, Lcom/fimi/soul/drone/d/a/d;->d()B
+
+    move-result v0
+
+    iput-byte v0, p0, Lcom/fimi/soul/drone/d/a/a/q;->f:B
+
+    return-void
+.end method
+
+.method public b()Lcom/fimi/soul/drone/d/a/c;
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return-object v0
+.end method
+
+.method public c()B
+    .locals 1
+
+    iget-byte v0, p0, Lcom/fimi/soul/drone/d/a/a/q;->d:B
+
+    return v0
+.end method
+
+.method public d()S
+    .locals 1
+
+    iget-short v0, p0, Lcom/fimi/soul/drone/d/a/a/q;->e:S
+
+    return v0
+.end method
+
+.method public e()B
+    .locals 1
+
+    iget-byte v0, p0, Lcom/fimi/soul/drone/d/a/a/q;->f:B
+
+    return v0
+.end method

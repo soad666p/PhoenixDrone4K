@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Language Configuration -->
+    <!-- Set to "en" for English, "zh" for Chinese -->
+    <string name="app_language">en</string>
+    
+    <!-- Available languages -->
+    <string name="language_english">English</string>
+    <string name="language_chinese">中文</string>
+    
+    <!-- Language selection prompt -->
+    <string name="language_selection_title">Select Language</string>
+    <string name="language_selection_message">Choose your preferred language</string>
+    
+    <!-- Default language settings -->
+    <string name="default_language">en</string>
+    <string name="fallback_language">en</string>
+    
+    <!-- Language detection -->
+    <string name="auto_detect_language">Auto-detect device language</string>
+    <string name="force_english">Force English</string>
+    <string name="force_chinese">Force Chinese</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fimi.kernel.view.percent.PercentRelativeLayout android:orientation="vertical" android:id="@id/main_layout" android:background="@drawable/login_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/login_animation_vs" android:layout="@layout/viewstub_login_animation" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_widthPercent="111.11%h" />
+    <ImageView android:id="@id/login_mask_iv" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.fimi.soul.view.TranslationView android:id="@id/translationview" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/usb_connecting" />
+    <TextView android:textColor="#ccffffff" android:id="@id/checking_hard_tv" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/checking_hard" android:layout_centerHorizontal="true" app:layout_marginTopPercent="74.07%h" app:layout_textSizePercent="4.26%h" />
+    <RelativeLayout android:layout_width="0.0dip" android:layout_height="298.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" app:layout_widthPercent="44.375%w">
+        <com.fimi.soul.view.HackyViewPager android:id="@id/view_pager" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/viewGroup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <ImageView android:id="@id/iv_left_slide" android:background="@drawable/left_slide" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/iv_right_slide" android:background="@drawable/right_slide" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" app:layout_marginLeftPercent="45.468%w" />
+    <com.fimi.kernel.view.progress.ProgressView android:id="@id/checkFirmwareprogress" android:visibility="invisible" android:layout_width="191.0dip" android:layout_height="1.2999878dip" android:layout_marginTop="17.0dip" android:layout_centerHorizontal="true" app:layout_marginTopPercent="82.68%h" />
+    <TextView android:textSize="8.0dip" android:textColor="#66ffffff" android:gravity="center" android:id="@id/tv_x1bh_camera_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.299988dip" android:text="@string/cloud_camera_update_hint" android:layout_below="@id/checkFirmwareprogress" android:layout_centerHorizontal="true" />
+</com.fimi.kernel.view.percent.PercentRelativeLayout>

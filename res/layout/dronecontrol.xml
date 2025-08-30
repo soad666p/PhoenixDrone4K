@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fimi.kernel.view.percent.PercentRelativeLayout android:gravity="right" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="130.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <ImageButton android:id="@id/closebutton" android:background="@drawable/controlclosebg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dronecloseicon" />
+    </FrameLayout>
+    <com.fimi.kernel.view.percent.PercentLinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:weightSum="7.0" android:layout_alignParentRight="true" app:layout_widthPercent="54.722%h">
+        <com.fimi.kernel.view.percent.PercentRelativeLayout android:gravity="center|right" android:id="@id/takeoffrl" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <ImageView android:background="@drawable/controlfirstbg" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <ImageView android:id="@id/takeofficon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="55.0dip" android:layout_marginTop="17.0dip" android:src="@drawable/takeoffing" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/white" android:id="@id/takeofftext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="17.0dip" android:text="@string/takeoff" android:layout_toRightOf="@id/takeofficon" android:layout_alignBaseline="@id/takeofficon" android:alpha="0.9" />
+        </com.fimi.kernel.view.percent.PercentRelativeLayout>
+        <com.fimi.kernel.view.percent.PercentRelativeLayout android:gravity="center|right" android:id="@id/landingpl" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <ImageView android:background="@drawable/controlsecondbg" android:layout_width="192.0dip" android:layout_height="fill_parent" />
+            <ImageView android:id="@id/landingicon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="67.399994dip" android:layout_marginTop="18.0dip" android:src="@drawable/landingicon" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/white" android:id="@id/landingtext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="17.0dip" android:text="@string/landfall" android:layout_toRightOf="@id/landingicon" android:layout_alignBaseline="@id/landingicon" android:alpha="0.9" />
+        </com.fimi.kernel.view.percent.PercentRelativeLayout>
+        <com.fimi.kernel.view.percent.PercentRelativeLayout android:gravity="center|right" android:id="@id/gohomepl" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <ImageView android:background="@drawable/controlthridbg" android:layout_width="141.0dip" android:layout_height="fill_parent" />
+            <ImageView android:id="@id/gohomeicon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.899994dip" android:layout_marginTop="20.0dip" android:src="@drawable/gohomeicon" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/white" android:id="@id/gohometext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="17.0dip" android:text="@string/gotohome" android:layout_toRightOf="@id/gohomeicon" android:layout_alignBaseline="@id/gohomeicon" android:alpha="0.9" />
+        </com.fimi.kernel.view.percent.PercentRelativeLayout>
+        <com.fimi.kernel.view.percent.PercentRelativeLayout android:gravity="center|right" android:id="@id/detoruingpointpl" android:layout_width="132.0dip" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <ImageView android:background="@drawable/controlfourbg" android:layout_width="132.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+            <ImageView android:id="@id/detoruingpointicon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.899994dip" android:layout_marginTop="17.0dip" android:src="@drawable/detouringicon" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/white" android:id="@id/controlfourtext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="17.0dip" android:text="@string/detoruingpoint" android:layout_toRightOf="@id/detoruingpointicon" android:layout_alignBaseline="@id/detoruingpointicon" android:alpha="0.9" />
+        </com.fimi.kernel.view.percent.PercentRelativeLayout>
+        <com.fimi.kernel.view.percent.PercentRelativeLayout android:id="@id/takephonemyselfpl" android:layout_width="141.0dip" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <ImageView android:background="@drawable/controlfivebg" android:layout_width="141.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+            <ImageView android:id="@id/takephoneicon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="26.0dip" android:layout_marginTop="17.5dip" android:src="@mipmap/icon_fly_mode_selfie" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/white" android:id="@id/takephonetext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="17.299988dip" android:text="@string/fly_take_photo" android:layout_toRightOf="@id/takephoneicon" android:layout_alignBaseline="@id/detoruingpointicon" android:alpha="0.9" />
+        </com.fimi.kernel.view.percent.PercentRelativeLayout>
+        <com.fimi.kernel.view.percent.PercentRelativeLayout android:id="@id/setwaypointpl" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <ImageView android:background="@drawable/controlsixbg" android:layout_width="192.5dip" android:layout_height="fill_parent" />
+            <ImageView android:id="@id/setwaypointicon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="67.0dip" android:layout_marginTop="18.0dip" android:src="@drawable/setwaypointicon" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/white" android:id="@id/waypointtext" android:paddingLeft="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:text="@string/settingwaypoint" android:layout_toRightOf="@id/setwaypointicon" android:layout_alignBaseline="@id/setwaypointicon" android:alpha="0.9" />
+        </com.fimi.kernel.view.percent.PercentRelativeLayout>
+        <com.fimi.kernel.view.percent.PercentRelativeLayout android:gravity="center|right" android:id="@id/setdestination" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <ImageView android:background="@drawable/controlsevenbg" android:layout_width="192.5dip" android:layout_height="fill_parent" />
+            <ImageView android:id="@id/setdestinationicon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="45.599976dip" android:layout_marginTop="20.0dip" android:src="@drawable/setestinationicon" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/white" android:id="@id/targetplacetext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="18.0dip" android:text="@string/settingtargetplace" android:layout_toRightOf="@id/setdestinationicon" android:layout_alignBaseline="@id/setdestinationicon" android:alpha="0.9" />
+        </com.fimi.kernel.view.percent.PercentRelativeLayout>
+    </com.fimi.kernel.view.percent.PercentLinearLayout>
+</com.fimi.kernel.view.percent.PercentRelativeLayout>

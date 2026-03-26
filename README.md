@@ -10,6 +10,14 @@ If you find this modification helpful and would like to support the development,
 
 Your support helps keep this project maintained and improved for the drone community!
 
+## 🕊️ Ethical Use Notice
+
+I stand with Ukraine 🇺🇦.
+
+This project is intended for civilian and hobbyist use only. I explicitly do **not** support or condone the use of this application in any military, surveillance, or battlefield activities—especially in contexts that may harm Ukraine or its people.
+
+If you are using this software, you are expected to do so responsibly and ethically.
+
 ## ⚠️ Important Disclaimer
 
 **I do NOT own the original MiDrone 4K application code, nor do I have any affiliation with Xiaomi Inc.** This is a personal modification project created solely to give my drone a second life by making the app compatible with modern Android devices.

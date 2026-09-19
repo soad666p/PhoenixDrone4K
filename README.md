@@ -2,6 +2,8 @@
 
 This repository contains a modified version of the MiDrone 4K Android application that has been updated to work with modern Android devices. The original app is no longer supported by Xiaomi and doesn't work on newer Android versions.
 
+**Download the latest signed APK from the [Releases](https://github.com/soad666p/PhoenixDrone4K/releases) page.** New builds are published there as well — you do not need to build from source to install the app.
+
 ## ☕ Support This Project
 
 If you find this modification helpful and would like to support the development, consider buying me a coffee:
@@ -37,12 +39,16 @@ Before building the app, you'll need:
 
 ## 📦 Releases
 
-Installable APKs are in [`dist/`](dist/) and on the [GitHub Releases](https://github.com/soad666p/PhoenixDrone4K/releases) page.
+Ready-to-install APKs for each new version are on the **[GitHub Releases](https://github.com/soad666p/PhoenixDrone4K/releases)** page.
+
+Grab **`PhoenixDrone-built-aligned-debugSigned.apk`** from the latest release (currently [v3.1.67.1-english](https://github.com/soad666p/PhoenixDrone4K/releases/tag/v3.1.67.1-english)). That is the signed build you should install.
+
+Copies of those APKs also live in [`dist/`](dist/) in this repo:
 
 - `dist/PhoenixDrone-built-aligned-debugSigned.apk` — signed, ready to install
 - `dist/PhoenixDrone-built.apk` — unsigned rebuild from apktool
 
-To publish a new GitHub Release, push a version tag. That runs `.github/workflows/apk-release.yml`, which rebuilds, signs, and attaches both APKs:
+To publish a new GitHub Release, push a version tag. That runs `.github/workflows/apk-release.yml`, which rebuilds, signs, and attaches both APKs to the Releases page:
 
 ```bash
 git tag v3.1.67.1-english
@@ -105,8 +111,10 @@ This displays your device's Android version for reference.
 
 ### Step 4: Install the App
 
+Download `PhoenixDrone-built-aligned-debugSigned.apk` from the [Releases](https://github.com/soad666p/PhoenixDrone4K/releases) page, then:
+
 ```bash
-adb install -t --bypass-low-target-sdk-block MiDrone-4K-modified-aligned-debugSigned.apk
+adb install -t --bypass-low-target-sdk-block PhoenixDrone-built-aligned-debugSigned.apk
 ```
 
 The `--bypass-low-target-sdk-block` flag allows installation of apps that were built for older Android versions.

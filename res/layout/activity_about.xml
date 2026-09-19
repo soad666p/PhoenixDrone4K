@@ -59,7 +59,7 @@
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
-    <Button android:textSize="12.0dip" android:textColor="#80ffffff" android:gravity="center" android:id="@id/scoreBtn" android:background="@drawable/assess_btn_selector" android:layout_width="115.32999dip" android:layout_height="wrap_content" android:layout_marginBottom="36.0dip" android:text=" 去评分 " android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <Button android:textSize="12.0dip" android:textColor="#80ffffff" android:gravity="center" android:id="@id/scoreBtn" android:background="@drawable/assess_btn_selector" android:layout_width="115.32999dip" android:layout_height="wrap_content" android:layout_marginBottom="36.0dip" android:text=" Rate Us " android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
     <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
         <TextView android:textSize="10.0sp" android:textColor="#33ffffff" android:id="@id/copyright" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Copyright © 2015-2016 Fimi, All Rights Reserved. | " />
         <TextView android:textSize="10.0sp" android:textColor="#33ffffff" android:id="@id/agreementshengming_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/agreement_shengming" />

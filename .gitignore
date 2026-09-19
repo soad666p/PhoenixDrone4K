@@ -1,0 +1,4 @@
+# Local rebuild leftovers; signed copies to ship live in dist/
+/PhoenixDrone-built*.apk
+/*.apk.idsig
+/tools/*.jar

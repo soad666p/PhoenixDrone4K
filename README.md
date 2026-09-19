@@ -35,6 +35,22 @@ Before building the app, you'll need:
 - **Uber APK Signer** - For signing the final APK
 - **ADB (Android Debug Bridge)** - For device communication and installation
 
+## 📦 Releases
+
+Installable APKs are in [`dist/`](dist/) and on the [GitHub Releases](https://github.com/soad666p/PhoenixDrone4K/releases) page.
+
+- `dist/PhoenixDrone-built-aligned-debugSigned.apk` — signed, ready to install
+- `dist/PhoenixDrone-built.apk` — unsigned rebuild from apktool
+
+To publish a new GitHub Release, push a version tag. That runs `.github/workflows/apk-release.yml`, which rebuilds, signs, and attaches both APKs:
+
+```bash
+git tag v3.1.67.1-english
+git push origin v3.1.67.1-english
+```
+
+You can also run **Build APK and Release** from the Actions tab (`workflow_dispatch`) to produce downloadable APK artifacts without creating a release.
+
 ## 📱 Building the App
 
 ### Step 1: Decompile the APK
